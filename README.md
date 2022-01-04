@@ -15,19 +15,19 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD5||
 |FD6|파이썬으로 코딩 시작하기|
 |FD7|텍스트의 다양한 변신 (문자열, 파일 다루기)|
-|FD8|파이썬 잘하는 척 해보자|
-|FD9|Data 어떻게 표현하면 좋을까? 배열(array)과 표(table)|
-|FD10|다양한 데이터 전처리 기법|
+|FD8|파이썬 잘하는 척 해보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal08.md)
+|FD9|Data 어떻게 표현하면 좋을까? 배열(array)과 표(table)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal09.md)
+|FD10|다양한 데이터 전처리 기법|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal10.md)
 
 ----
 ## Exploration
-||Contents|Github Link|Project|Github Link|
-|:----:|----|:----:|----|:----:|
-|EP1|인공지능과 가위바위보 하기|
+||Contents|Github Link|
+|:----:|----|:----:|
+|EP1|인공지능과 가위바위보 하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration01.ipynb)
 ----
 ## Going Deeper CV
-||Contents|GitHub Link|Blog Link|
-|:----:|----|:----:|:----:|
+||Contents|GitHub Link|
+|:----:|----|:----:|
 
 
 
