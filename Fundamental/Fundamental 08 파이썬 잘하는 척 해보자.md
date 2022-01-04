@@ -166,4 +166,4 @@ print(result)
 
 - 일반적으로 패키지 > 모듈 > 함수 이렇게 구성된다.
 
-![Untitled](image/Untitled.png)
+![Untitled](image/8-1.png)
