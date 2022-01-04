@@ -21,9 +21,9 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 
 ----
 ## Exploration
-||Contents|Github Link|
-|:----:|----|:----:|
-|EP1|인공지능과 가위바위보 하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration01.ipynb)
+||Contents|Github Link|Project|
+|:----:|----|:----:|:----:|
+|EP1|인공지능과 가위바위보 하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration01.md)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration01.ipynb)
 ----
 ## Going Deeper CV
 ||Contents|GitHub Link|
