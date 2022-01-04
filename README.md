@@ -8,14 +8,22 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 ## Fundamental
 ||Contents|Github Link|
 |:----:|----|:----:|
-|FD1|인공지능 개발자가 되기 위한 위대한 첫걸음|
-|FD2|
+|FD1|Ready to go?|
+|FD2|인공지능 개발자가 되기 위한 위대한 첫걸음|
+|FD3|터미널로 배우는 리눅스|
+|FD4|개발자를 위한 첫 번째 필수 교양|
+|FD5||
+|FD6|파이썬으로 코딩 시작하기|
+|FD7|텍스트의 다양한 변신 (문자열, 파일 다루기)|
+|FD8|파이썬 잘하는 척 해보자|
+|FD9|Data 어떻게 표현하면 좋을까? 배열(array)과 표(table)|
+|FD10|다양한 데이터 전처리 기법|
 
 ----
 ## Exploration
 ||Contents|Github Link|Project|Github Link|
 |:----:|----|:----:|----|:----:|
-|EP1|MNIST 숫자 손글씨 이미지 분류|
+|EP1|인공지능과 가위바위보 하기|
 ----
 ## Going Deeper CV
 ||Contents|GitHub Link|Blog Link|
