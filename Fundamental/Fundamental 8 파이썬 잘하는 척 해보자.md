@@ -166,4 +166,4 @@ print(result)
 
 - 일반적으로 패키지 > 모듈 > 함수 이렇게 구성된다.
 
-![Untitled](Fundamental%208%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%86%AF%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8E%E1%85%A5%E1%86%A8%20%E1%84%92%E1%85%A2%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%205084c9bb85c344578dc268536639ea35/Untitled.png)
+![Untitled](image/Untitled.png)
