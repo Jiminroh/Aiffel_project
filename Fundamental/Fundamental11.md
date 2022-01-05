@@ -121,18 +121,18 @@ data.plot(kind='bar', ax=axes[0], color='blue', alpha=1)
 data.plot(kind='barh', ax=axes[1], color='red', alpha=0.3)
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled.png)
+![Untitled](image/11-.png)
 
 ```python
 df = pd.DataFrame(np.random.rand(6,4), columns=pd.Index(['A','B','C','D']))
 df.plot(kind='line')
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%201.png)
+![Untitled](image/11-%201.png)
 
 ### 정리
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%202.png)
+![Untitled](image/11-%202.png)
 
 # **3. 그래프 4대 천왕: 막대그래프, 선그래프, 산점도, 히스토그램**
 
@@ -204,7 +204,7 @@ plt.ylabel('tip[$]')
 plt.title('Tip by Sex')
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%203.png)
+![Untitled](image/11-%203.png)
 
 1. Seaborn과 Matplotlib을 활용한 방법
 
@@ -212,7 +212,7 @@ plt.title('Tip by Sex')
 sns.barplot(data=df, x='sex', y='tip') # 아주 간단하게 구현
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%204.png)
+![Untitled](image/11-%204.png)
 
 ```python
 plt.figure(figsize=(10,6)) # 도화지 사이즈를 정합니다.
@@ -221,7 +221,7 @@ plt.ylim(0, 4) # y값의 범위를 정합니다.
 plt.title('Tip by sex') # 그래프 제목을 정합니다.
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%205.png)
+![Untitled](image/11-%205.png)
 
 ### 4. 수치형 데이터 그래프 그리기
 
@@ -233,7 +233,7 @@ plt.title('Tip by sex') # 그래프 제목을 정합니다.
 sns.scatterplot(data=df , x='total_bill', y='tip', hue='day')
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%206.png)
+![Untitled](image/11-%206.png)
 
 1. 선 그래프 그리기
 
@@ -242,7 +242,7 @@ sns.lineplot(x=x, y=np.sin(x))
 sns.lineplot(x=x, y=np.cos(x))
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%207.png)
+![Untitled](image/11-%207.png)
 
 ### 5. 히스토그램
 
@@ -287,7 +287,7 @@ ax1.set_title('Two Frequency Distributions')
 plt.show()
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%208.png)
+![Untitled](image/11-%208.png)
 
 1. Seaborn 이용하기
 
@@ -296,14 +296,14 @@ sns.histplot(df['total_bill'], label = "total_bill")
 sns.histplot(df['tip'], label = "tip").legend()# legend()를 이용하여 label을 표시해 줍니다.
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%209.png)
+![Untitled](image/11-%209.png)
 
 ```python
 # 확률 밀도 그래프 
 df['tip_pct'].plot(kind='kde')
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2010.png)
+![Untitled](image/11-%2010.png)
 
 # **4. 시계열 데이터 시각화하기**
 
@@ -326,13 +326,11 @@ sns.lineplot(data=flights, x='year', y='passengers', hue='month', palette='ch:.5
 plt.legend(bbox_to_anchor=(1.03, 1), loc=2) #legend 그래프 밖에 추가하기
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2011.png)
+![Untitled](image/11-%2011.png) ![Untitled](image/11-%2012.png)
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2012.png)
+![Untitled](image/11-%2013.png) ![Untitled](image/11-%2014.png)
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2013.png)
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2014.png)
 
 ### 3. 히스토그램
 
@@ -340,7 +338,7 @@ plt.legend(bbox_to_anchor=(1.03, 1), loc=2) #legend 그래프 밖에 추가하�
 sns.histplot(flights['passengers'])
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2015.png)
+![Untitled](image/11-%2015.png)
 
 # **5. Heatmap**
 
@@ -367,8 +365,7 @@ sns.heatmap(pivot, linewidths=.2, annot=True, fmt="d")
 sns.heatmap(pivot, cmap="YlGnBu")
 ```
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2016.png)
+![Untitled](image/11-%2016.png) ![Untitled](image/11-%2017.png) ![Untitled](image/11-%2018.png)
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2017.png)
 
-![Untitled](Fundamental%2011%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%92%E1%85%A1%E1%86%AB%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%A6%20Visualization%20de0b0fee02a245b6892b4c8554159986/Untitled%2018.png)
+

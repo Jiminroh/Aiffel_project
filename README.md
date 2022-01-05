@@ -18,6 +18,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD8|파이썬 잘하는 척 해보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal08.md)
 |FD9|Data 어떻게 표현하면 좋을까? 배열(array)과 표(table)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal09.md)
 |FD10|다양한 데이터 전처리 기법|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal10.md)
+|FD11|데이터를 한눈에 visualization|[link]()
 
 ----
 ## Exploration
