@@ -4,13 +4,13 @@
 
 ### 붓꽃 분류 문제
 
-![Untitled](Exploration%202%20Iris%E1%84%8B%E1%85%B4%20%E1%84%89%E1%85%A6%20%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A9%E1%86%BC,%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%92%E1%85%A2%E1%84%87%E1%85%A9%E1%86%AF%20%E1%84%89%E1%85%AE%20a6347b8bae3d4ebebe742cdfe4805781/Untitled.png)
+![Untitled](images/2-.png)
 
 # 2. 데이터 다루기
 
 ## 0. Iris plants 데이터 셋 확인
 
-![Untitled](Exploration%202%20Iris%E1%84%8B%E1%85%B4%20%E1%84%89%E1%85%A6%20%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A9%E1%86%BC,%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%92%E1%85%A2%E1%84%87%E1%85%A9%E1%86%AF%20%E1%84%89%E1%85%AE%20a6347b8bae3d4ebebe742cdfe4805781/Untitled%201.png)
+![Untitled](images/2-%201.png)
 
 > 목표 → 꽃잎, 꽃받침의 길이와 폭 정보를 입력했을 때 붓꽃의 품종을 출력
 > 
@@ -224,7 +224,7 @@ SVM은 Support Vector와 Hyperplane(초평면)을 이용해 분류를 수핼하�
 > **Margin: Decision Boundary와 Support Vector 사이의 거리**
 > 
 
-![Untitled](Exploration%202%20Iris%E1%84%8B%E1%85%B4%20%E1%84%89%E1%85%A6%20%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A9%E1%86%BC,%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%92%E1%85%A2%E1%84%87%E1%85%A9%E1%86%AF%20%E1%84%89%E1%85%AE%20a6347b8bae3d4ebebe742cdfe4805781/Untitled%202.png)
+![Untitled](images/2-%202.png)
 
 ```python
 from sklearn import svm
@@ -259,7 +259,7 @@ SGD는 배치 크기가 1인 경사하강법 알고리즘이다.
 단점 극복 →미니 배치 확률적 경사하강법(미니 배치 SGD)사용**
 > 
 
-![Untitled](Exploration%202%20Iris%E1%84%8B%E1%85%B4%20%E1%84%89%E1%85%A6%20%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A9%E1%86%BC,%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%92%E1%85%A2%E1%84%87%E1%85%A9%E1%86%AF%20%E1%84%89%E1%85%AE%20a6347b8bae3d4ebebe742cdfe4805781/Untitled%203.png)
+![Untitled](images/2-%203.png)
 
 ```python
 from sklearn.linear_model import SGDClassifier
@@ -291,7 +291,7 @@ Logistic Regression은 가장 널리 알려진 선형 분류 알고리즘이다.
 이름은 회귀지만 실제로는 분류를 수행**
 > 
 
-![Untitled](Exploration%202%20Iris%E1%84%8B%E1%85%B4%20%E1%84%89%E1%85%A6%20%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A9%E1%86%BC,%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%92%E1%85%A2%E1%84%87%E1%85%A9%E1%86%AF%20%E1%84%89%E1%85%AE%20a6347b8bae3d4ebebe742cdfe4805781/Untitled%204.png)
+![Untitled](images/2-%204.png)
 
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -368,4 +368,4 @@ accuracy
 
 </aside>
 
-![Untitled](Exploration%202%20Iris%E1%84%8B%E1%85%B4%20%E1%84%89%E1%85%A6%20%E1%84%80%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A9%E1%86%BC,%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%85%E1%85%B2%E1%84%92%E1%85%A2%E1%84%87%E1%85%A9%E1%86%AF%20%E1%84%89%E1%85%AE%20a6347b8bae3d4ebebe742cdfe4805781/Untitled%205.png)
+![Untitled](images/2-%205.png)
