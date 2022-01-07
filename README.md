@@ -19,6 +19,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD9|Data 어떻게 표현하면 좋을까? 배열(array)과 표(table)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal09.md)|[link](https://jm-develope-note.tistory.com/3?category=529453)
 |FD10|다양한 데이터 전처리 기법|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal10.md)|[link](https://jm-develope-note.tistory.com/4?category=529453)
 |FD11|데이터를 한눈에 visualization|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_11.md)|[link](https://jm-develope-note.tistory.com/6?category=529453)
+|FD12|사이킷런으로 구현해보는 머신러닝|[link]()|[link]()
 
 ----
 ## Exploration
@@ -26,6 +27,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |:----:|----|:----:|:----:|:----:|:----:|
 |EP1|MNIST 숫자 손글씨 data 다루기 |[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration01.md)|[link](https://jm-develope-note.tistory.com/5?category=529454)|인공지능과 가위바위보 하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration01.ipynb)
 |EP2|Iris의  세 가지 품종 분류|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_02.md)|[link](https://jm-develope-note.tistory.com/10?category=529454)|손글씨 분류, 와인 분류, 유방암 확인|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration02.ipynb)|[link]()
+
 ----
 ## Going Deeper CV
 ||Contents|GitHub Link|
