@@ -20,7 +20,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD10|다양한 데이터 전처리 기법|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal10.md)|[link](https://jm-develope-note.tistory.com/4?category=529453)
 |FD11|데이터를 한눈에 visualization|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_11.md)|[link](https://jm-develope-note.tistory.com/6?category=529453)
 |FD12|사이킷런으로 구현해보는 머신러닝|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_12.md)|[link](https://jm-develope-note.tistory.com/11?category=529453)
-|FD13|당신의 행운의 숫자는? 나만의 n면체 주사위 위젯 만들기|[link]()|[link]()
+|FD13|당신의 행운의 숫자는? 나만의 n면체 주사위 위젯 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_13.md)|[link](https://jm-develope-note.tistory.com/15)
 
 ----
 ## Exploration
