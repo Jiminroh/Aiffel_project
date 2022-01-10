@@ -12,7 +12,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD2|인공지능 개발자가 되기 위한 위대한 첫걸음|
 |FD3|터미널로 배우는 리눅스|
 |FD4|개발자를 위한 첫 번째 필수 교양|
-|FD5|날씨 좋은 월요일 오후 세 시, 자전거 타는 사람은 몇 명?|[link]()|[link]()
+|FD5|날씨 좋은 월요일 오후 세 시, 자전거 타는 사람은 몇 명?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_05.md)|[link](https://jm-develope-note.tistory.com/16)
 |FD6|파이썬으로 코딩 시작하기|
 |FD7|텍스트의 다양한 변신 (문자열, 파일 다루기)|
 |FD8|파이썬 잘하는 척 해보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal08.md)|[link](https://jm-develope-note.tistory.com/2?category=529453)
