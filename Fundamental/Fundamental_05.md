@@ -99,7 +99,7 @@ plt.show()
 
 
     
-![png](output_8_0.png)
+![png](image/5-.png)
     
 
 
@@ -108,7 +108,7 @@ x축(사용한 연도)으로 갈 수록 y축(가격)이 내려간다.
 ### 상관관계 
 ---
 
-![image.png](attachment:image.png)
+![image.png](image/5-8.png)
 
 상관관계와 상관계수는 두 변수 간의 패턴을 나타내는 것이 아닌, 각 값의 증가 또는 감소에 대한 관계만을 나타낸다.        
 이러한 상관관계를 볼 때 macbook데이터는 음의 상관관계를 갖는다고 할 수 있다.
@@ -181,7 +181,7 @@ plt.show()
 
 
     
-![png](output_19_0.png)
+![png](image/5-1.png)
     
 
 
@@ -324,11 +324,11 @@ def loss(x, w, b, y):
 
 손실 함수를 줄이기 위해 우리가 바꿀 수 있는 변수는 w, b이 두 개뿐이다.
 
-![image.png](attachment:image.png)
+![image.png](image/5-9.png)
 
-![image.png](attachment:image.png)
+![image.png](image/5-10.png)
 
-![image.png](attachment:image.png)
+![image.png](image/5-11.png)
 
 왼쪽 점은 자기 자신의 위치보다 오른쪽으로 갈수록 손실함수값이 점점 작아지기 때문에 그 점에서 그린 접선은 오른쪽 아래로 향하는 방향 이고, 그 기울기는 음수 입니다.        
 오른쪽 점은 자기 자신의 위치보다 왼쪽으로 갈수록 손실함수값이 점점 작아지기 때문에 그 점에서 그린 접선은 왼쪽 아래로 향하는 방향이고, 그 기울기는 양수 입니다.
@@ -407,7 +407,7 @@ plt.show()
 
 
     
-![png](output_47_0.png)
+![png](image/5-2.png)
     
 
 
@@ -444,7 +444,7 @@ plt.show()
 
 
     
-![png](output_50_0.png)
+![png](image/5-3.png)
     
 
 
@@ -892,7 +892,7 @@ plt.show()
 
 
     
-![png](output_56_0.png)
+![png](image/5-4.png)
     
 
 
@@ -1488,7 +1488,7 @@ plt.show()
 
 
     
-![png](output_78_0.png)
+![png](image/5-5.png)
     
 
 
@@ -1517,7 +1517,7 @@ plt.show()
 
 
     
-![png](output_81_0.png)
+![png](image/5-6.png)
     
 
 
@@ -1617,7 +1617,7 @@ plt.show()
 
 
     
-![png](output_94_0.png)
+![png](image/5-7.png)
     
 
 
