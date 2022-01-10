@@ -15,9 +15,9 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD5|날씨 좋은 월요일 오후 세 시, 자전거 타는 사람은 몇 명?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_05.md)|[link](https://jm-develope-note.tistory.com/16)
 |FD6|파이썬으로 코딩 시작하기|
 |FD7|텍스트의 다양한 변신 (문자열, 파일 다루기)|
-|FD8|파이썬 잘하는 척 해보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal08.md)|[link](https://jm-develope-note.tistory.com/2?category=529453)
-|FD9|Data 어떻게 표현하면 좋을까? 배열(array)과 표(table)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal09.md)|[link](https://jm-develope-note.tistory.com/3?category=529453)
-|FD10|다양한 데이터 전처리 기법|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundametal10.md)|[link](https://jm-develope-note.tistory.com/4?category=529453)
+|FD8|파이썬 잘하는 척 해보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_08.md)|[link](https://jm-develope-note.tistory.com/2?category=529453)
+|FD9|Data 어떻게 표현하면 좋을까? 배열(array)과 표(table)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_09.md)|[link](https://jm-develope-note.tistory.com/3?category=529453)
+|FD10|다양한 데이터 전처리 기법|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_10.md)|[link](https://jm-develope-note.tistory.com/4?category=529453)
 |FD11|데이터를 한눈에 visualization|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_11.md)|[link](https://jm-develope-note.tistory.com/6?category=529453)
 |FD12|사이킷런으로 구현해보는 머신러닝|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_12.md)|[link](https://jm-develope-note.tistory.com/11?category=529453)
 |FD13|당신의 행운의 숫자는? 나만의 n면체 주사위 위젯 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_13.md)|[link](https://jm-develope-note.tistory.com/15)
