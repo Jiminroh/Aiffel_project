@@ -30,6 +30,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP1|MNIST 숫자 손글씨 data 다루기 |[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration01.md)|[link](https://jm-develope-note.tistory.com/5?category=529454)|인공지능과 가위바위보 하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration01.ipynb)
 |EP2|Iris의  세 가지 품종 분류|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_02.md)|[link](https://jm-develope-note.tistory.com/10?category=529454)|손글씨 분류, 와인 분류, 유방암 확인|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration02.ipynb)|[link]()
 |EP3|카메라 스커앱 만들기 첫걸음|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_03.md)|[link](https://jm-develope-note.tistory.com/20)|고양이 수염 스티커 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration03.ipynb)
+|EP4|작사가 인공지능 만들기|[link]()|[link]()|멋진 작사가 만들기|[link]()
 
 ----
 ## Going Deeper CV

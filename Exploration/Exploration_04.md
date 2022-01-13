@@ -13,7 +13,7 @@
 
 ### **순환신경망(RNN)**
 
-![Untitled](Exploration%204%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A1%E1%84%80%E1%85%A1%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20969cc7125e2b4138b2fbdff89534e2a7/Untitled.png)
+![Untitled](images/4-.png)
 
 우리는 ‘나는 밥을’이라는 input을 가지고 ‘먹었다’라는 output을 예측할 수 있다. 그러면 ‘나는’ 이라는 output을 내려면 어떻게 할까?
 
@@ -65,7 +65,7 @@ print(raw_corpus[:9])
 
 데이터는 완벽한 연극 대본이다. 하지만 필요없는 공백정보가 포함되었다.
 
-![Untitled](Exploration%204%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A1%E1%84%80%E1%85%A1%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20969cc7125e2b4138b2fbdff89534e2a7/Untitled%201.png)
+![Untitled](images/4-%201.png)
 
 ```python
 for idx, sentence in enumerate(raw_corpus):
@@ -267,7 +267,7 @@ dataset
 
 만들 모델의 구조
 
-![Untitled](Exploration%204%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A1%E1%84%80%E1%85%A1%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20969cc7125e2b4138b2fbdff89534e2a7/Untitled%202.png)
+![Untitled](images/4-%202.png)
 
 우리가 만들 모델은 tf.keras.Model을 Subclassing하는 방식이다. 위 그림에서 설명한 것처럼 우리가 만들 모델에는 1개의 Embedding 레이어, 2개의 LSTM 레이어, 1개의 Dense 레이어로 구성되어 있다.
 
