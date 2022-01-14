@@ -199,7 +199,7 @@ plt.title("[Legendary Pokemons]")
 plt.show()
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled.png)
+![Untitled](image/15-.png)
 
 피벗 테이플로 각 속성의 legendary 포켓몬들이 몇 퍼센트씩 있는지 확인
 
@@ -247,7 +247,7 @@ plt.title("[Legendary Pokemons]")
 plt.show()
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%201.png)
+![Untitled](image/15-%201.png)
 
 피벗 테이플로 각 속성의 legendary 포켓몬들이 몇 퍼센트씩 있는지 확인
 
@@ -314,7 +314,7 @@ sns.scatterplot(data=pokemon, x="Type 1", y="Total", hue="Legendary")
 plt.show()
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%202.png)
+![Untitled](image/15-%202.png)
 
 ## **5) 세부 스탯**
 
@@ -334,7 +334,7 @@ sns.scatterplot(data=pokemon, y="Total", x="Speed", hue="Legendary", ax=ax6)
 plt.show()
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%203.png)
+![Untitled](image/15-%203.png)
 
 분석
 
@@ -362,7 +362,7 @@ plt.title("[Legendary Pkemons]")
 plt.show() 
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%204.png)
+![Untitled](image/15-%204.png)
 
 # **전설의 포켓몬과 일반 포켓몬, 그 차이는?**
 
@@ -377,7 +377,7 @@ sns.scatterplot(data=legendary, y="Type 1", x="Total")
 plt.show()
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%205.png)
+![Untitled](image/15-%205.png)
 
 ```python
 # 전설의 포켓몬의 Total값 종류 확인 
@@ -393,7 +393,7 @@ sns.countplot(data=legendary, x="Total")
 plt.show()
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%206.png)
+![Untitled](image/15-%206.png)
 
 정리
 
@@ -426,7 +426,7 @@ plt.title("Ordinary")
 plt.show() 
 ```
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%207.png)
+![Untitled](image/15-%207.png)
 
 전설의 포켓몬은 16 이상의 긴 이름을 가진 포켓몬이 많은 반면, 일반 포켓몬은 10 이상의 길이를 가지는 이름의 빈도가 아주 낮다
 
@@ -535,7 +535,7 @@ Type속성은 총 18개로 구성되어 있고 이것을 처리하기 위해 원
 
  
 
-![Untitled](Fundamental%2015%20%E1%84%80%E1%85%A1%E1%84%85%E1%85%A1%E1%86%BA,%20%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%87%E1%85%A9%E1%86%AF!%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4%20%E1%84%91%E1%85%A9%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%86%E1%85%A9%2091f6ea15b3ff47b6b04e9f28cccfd2a3/Untitled%208.png)
+![Untitled](image/15-%208.png)
 
 ```python
 # Pandas의 == 문법을 사용해서 속성이 1개면 false, 2개면 true를 반환
