@@ -9,7 +9,7 @@
 
 그 이유는 인간의 눈의 망막에 있는 시세포가 인간의 경우 대부분 세 가지로 이루어져 있기 때문이다.
 
-![Untitled](Fundamental%2016%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%AE%E1%84%80%E1%85%B5%2017dc70bfc2424be592263cbe28d15ec7/Untitled.png)
+![Untitled](image/16-.png)
 
 <aside>
 💡 **래스터(raster) or 비트맵(bitmap) 방식**
@@ -23,7 +23,7 @@
 
 </aside>
 
-![Untitled](Fundamental%2016%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%AE%E1%84%80%E1%85%B5%2017dc70bfc2424be592263cbe28d15ec7/Untitled%201.png)
+![Untitled](image/16-%201.png)
 
 # 2. Pillow 사용법
 
@@ -216,7 +216,7 @@ plt.imshow(cv.cvtColor(res, cv.COLOR_BGR2RGB))
 plt.show()
 ```
 
-![Untitled](Fundamental%2016%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%AE%E1%84%80%E1%85%B5%2017dc70bfc2424be592263cbe28d15ec7/Untitled%202.png)
+![Untitled](image/16-%202.png)
 
 # 5. 실습
 
@@ -264,7 +264,7 @@ def draw_color_histogram_from_image(file_name):
 draw_color_histogram_from_image('adriatic_s_001807.png')
 ```
 
-![Untitled](Fundamental%2016%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%AE%E1%84%80%E1%85%B5%2017dc70bfc2424be592263cbe28d15ec7/Untitled%203.png)
+![Untitled](image/16-%203.png)
 
 ### Idea step
 

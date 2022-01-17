@@ -23,6 +23,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD13|당신의 행운의 숫자는? 나만의 n면체 주사위 위젯 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_13.md)|[link](https://jm-develope-note.tistory.com/15)
 |FD14|거울아 거울아, 나는 멍멍이 상이니, 아니면, 냥이 상이니?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_14.md)|[link](https://jm-develope-note.tistory.com/24)
 |FD15|가랏, 몬스터볼! 전설의 포켓몬 찾아 삼만리|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_15.md)|[link](https://jm-develope-note.tistory.com/26)
+|FD16|파이썬으로 이미지 파일 다루기|[link]()|[link]()
 
 ----
 ## Exploration
