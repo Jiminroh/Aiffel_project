@@ -6,7 +6,7 @@ Baseline은 기본적으로 문제 해결을 시작할 때 쉽게 사용해볼 �
 
 보통 대회에서 Baseline은 제공이 되는 경우도, 아닌 경우도 있는데 이번 대회는 특히 교육적인 성격도 있어서 제공이 되었다.
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled.png)
+![Untitled](images/5-.png)
 
 다음과 같은 페이지에서 ipynb파일을 다운 받아 로컬에 저장하자.
 
@@ -45,7 +45,7 @@ import seaborn as sns
 
 ### 데이터 살펴보기
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled%201.png)
+![Untitled](images/5-%201.png)
 
 ### 데이터 불러오기
 
@@ -86,7 +86,7 @@ print(len(data))
 msno.matrix(data) # 데이터의 결측 상태를 시각화를 통래 살펴볼 수 있다.
 ```
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled%202.png)
+![Untitled](images/5-%202.png)
 
 만약 각각의 col에 결측치가 존재한다면 해당 부분이 하얗게 나온다.
 
@@ -170,7 +170,7 @@ for row in range(9):
             break
 ```
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled%203.png)
+![Untitled](images/5-%203.png)
 
 `bedrooms`, `sqft_living`, `sqft_lot`, `sqft_above`, `sqft_basement`, `sqft_living15`, `sqft_lot15` 변수가 한쪽으로 치우친 경향을 보인다.
 
@@ -194,7 +194,7 @@ for row in range(4):
         count += 1
 ```
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled%204.png)
+![Untitled](images/5-%204.png)
 
 ```python
 # label 로그변환
@@ -204,7 +204,7 @@ sns.kdeplot(y_log_transformation)
 plt.show()
 ```
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled%205.png)
+![Untitled](images/5-%205.png)
 
 ```python
 # 전처리한 데이터를 다시 train, test 나누기
@@ -456,7 +456,7 @@ def get_scores(models, train, y):
 from sklearn.model_selection import GridSearchCV
 ```
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled%206.png)
+![Untitled](images/5-%206.png)
 
 Grid search & Random search
 
@@ -541,7 +541,7 @@ grid_model.cv_results_
 
 params, score로 데이터 프레임 만들기
 
-![Untitled](Exploration%205%20%E1%84%82%E1%85%A1%E1%84%8B%E1%85%B4%20%E1%84%8E%E1%85%A5%E1%86%BA%20%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%20%E1%84%8F%E1%85%A2%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC,%20%E1%84%86%E1%85%AE%E1%84%8C%20b2097162724d4f0eb16cd91e46ed770d/Untitled%207.png)
+![Untitled](images/5-%207.png)
 
 ```python
 results = pd.DataFrame(params)
