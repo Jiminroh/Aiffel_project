@@ -4,7 +4,7 @@
 
 오늘은 IMDb나 네이버 영화 리뷰 텍스트에 담긴 이용자의 감성이 긍정적인지 혹은 부정적인지를 분류(Classification)할 수 있는 딥러닝 모델을 만들어 볼 것이다.
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled.png)
+![Untitled](images/6-.png)
 
 ### Q&A
 
@@ -152,7 +152,7 @@ print(get_decoded_sentences(encoded_sentences, index_to_word))
 
 텍스트를 숫자로 변환하여 모델의 입력으로 사용될 수 있게 되었지만 이 벡터는 텍스트에 담긴 언어의 의미롸 대응되는 벡터가 아니라 임의로 부여된 단어의 순서에 불과하다. Tensorflow, Pytorch 등의 딥러닝 프레임워크들은 의미 벡터 파라미터를 구현한 Embedding 레이어를 제공한다.
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%201.png)
+![Untitled](images/6-%201.png)
 
 ‘great’는 먼저 1918이라는 index로 변환되고 lookup table에서 [1.2, 0.7, 1.9, 1.5]와 같은 Embedding vector로 변환된다.
 
@@ -254,7 +254,7 @@ at time=2s : 듣는이의 귀에 들어온 input='hungry'
 
 state 예시
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%202.png)
+![Untitled](images/6-%202.png)
 
 다음의 두 대화를 보면 Stateful 대화에서 직원은 손님이 이전에 주문한 내용을 기억하고 Stateless대화에서는 기억을 하지 못하고 있다. 
 
@@ -264,15 +264,15 @@ state 예시
 - new state = f(old state, input)
 - Vanilla RNN (기본적인 RNN)
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%203.png)
+![Untitled](images/6-%203.png)
 
 - weight값은 똑같은 것을 사용
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%204.png)
+![Untitled](images/6-%204.png)
 
 - 알파벳이 주어 졌을 때 그 다음에 올 알파벳을 예측
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%205.png)
+![Untitled](images/6-%205.png)
 
 - 각각의 알파벳을 원-핫 인코딩으로 변환 후
 - 가중치를 곱한다. 이 때 전 layer에서 구하였던 h_score값의 영향을 받는다. (단. 첫 번째 layer는 전에 구한 layer의 h_score값이 없으므로 h_score을 0으로 두어 영향을 받지 않는다.)
@@ -280,11 +280,11 @@ state 예시
 
   
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%206.png)
+![Untitled](images/6-%206.png)
 
 - RNN 활용 예시
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%207.png)
+![Untitled](images/6-%207.png)
 
 - RNN을 더 복잡한 layer를 사용하면 좋은 성능을 낼 수 있다.
 
@@ -666,7 +666,7 @@ plt.legend()
 plt.show()
 ```
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%208.png)
+![Untitled](images/6-%208.png)
 
 ```python
 plt.clf()   # 그림을 초기화합니다
@@ -681,7 +681,7 @@ plt.legend()
 plt.show()
 ```
 
-![Untitled](Exploration%206%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%AA%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%20%E1%84%90%E1%85%A6%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%20%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A5%E1%86%BC%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A5%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20d6b3bef60fa14ebeb44639485ffc9504/Untitled%209.png)
+![Untitled](images/6-%209.png)
 
 ### Word Embedding
 

@@ -35,6 +35,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP3|카메라 스커앱 만들기 첫걸음|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_03.md)|[link](https://jm-develope-note.tistory.com/20)|고양이 수염 스티커 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration03.ipynb)
 |EP4|작사가 인공지능 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_04.md)|[link](https://jm-develope-note.tistory.com/25)|멋진 작사가 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration04.ipynb)
 |EP5|나의 첫 번째 캐글 경진대회 무작정 따라해보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_05.md)|[link](https://jm-develope-note.tistory.com/36)|캐글 코리아와 함께하는 2nd ML 대회 - House Price Prediction|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-05%5DHouse%20Price%20Prediction.ipynb)
+|EP6|영화리뷰 텍스트 감성분석하기|[link]()|[link]()|네이버 영화리뷰 감성분석|[link]()
 
 ----
 ## Going Deeper CV
