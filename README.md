@@ -25,6 +25,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD15|가랏, 몬스터볼! 전설의 포켓몬 찾아 삼만리|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_15.md)|[link](https://jm-develope-note.tistory.com/26)
 |FD16|파이썬으로 이미지 파일 다루기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_16.md)|[link](https://jm-develope-note.tistory.com/31)
 |FD17|딥러닝과 신경망의 본질|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_17.md)|[link](https://jm-develope-note.tistory.com/37)
+|FD18|딥러닝 들여다보기|[link]()|[link]()
 
 ----
 ## Exploration
