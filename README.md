@@ -26,7 +26,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD16|파이썬으로 이미지 파일 다루기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_16.md)|[link](https://jm-develope-note.tistory.com/31)
 |FD17|딥러닝과 신경망의 본질|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_17.md)|[link](https://jm-develope-note.tistory.com/37)
 |FD18|딥러닝 들여다보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_18.md)|[link](https://jm-develope-note.tistory.com/39)
-|FD19|선형회귀와 로지스틱 회귀|[link]()|[link]()
+|FD19|선형회귀와 로지스틱 회귀|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/fundamental_19.md)|[link](https://jm-develope-note.tistory.com/41)
 
 ----
 ## Exploration
