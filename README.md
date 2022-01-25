@@ -38,6 +38,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP4|작사가 인공지능 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_04.md)|[link](https://jm-develope-note.tistory.com/25)|멋진 작사가 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/Exploration04.ipynb)
 |EP5|나의 첫 번째 캐글 경진대회 무작정 따라해보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_05.md)|[link](https://jm-develope-note.tistory.com/36)|캐글 코리아와 함께하는 2nd ML 대회 - House Price Prediction|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-05%5DHouse%20Price%20Prediction.ipynb)
 |EP6|영화리뷰 텍스트 감성분석하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_06.md)|[link](https://jm-develope-note.tistory.com/38)|네이버 영화리뷰 감성분석|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-06%5D%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0%20%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)
+|EP7|인물사진을 만들어 보자|[link]()|[link]()|인물사진 문제점찾기|[link]()
 
 ----
 ## Going Deeper CV

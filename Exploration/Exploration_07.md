@@ -8,7 +8,7 @@
 
 ### 하나의 카메라로 셸로우 포커스를 만드는 방법
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled.png)
+![Untitled](images/7-.png)
 
 1. 배경이 있는 셀카를 촬영합니다. (배경과 사암의 거리가 약간 멀리 있으면 좋습니다.)
 2. 시맨틱 세그멘테이션(Semantic segmentation)으로 피사체와 배경을 분리합니다.
@@ -52,7 +52,7 @@ plt.show()
 인스턴스 세그멘테이션은 사람 개개인별로 다른 라벨을 가지게 한다. 여러 사람이 한 이미지에 등장할 때 각 객체를 분할해서 인식하자는 것이 목표이다.
 > 
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%201.png)
+![Untitled](images/7-%201.png)
 
 # 시맨틱 세그멘테이션 다뤄보기
 
@@ -60,13 +60,13 @@ plt.show()
 
 ### DeepLab
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%202.png)
+![Untitled](images/7-%202.png)
 
 DeepLab은 많은 Sematic segmentation 모델중 가장 성능이 좋은 모델이다.
 
 ### Atrous Convolution
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%203.png)
+![Untitled](images/7-%203.png)
 
 Atrous convolution은 기존 convolution과 다르게 필테내부에 빈 공간을 둔 채로 작동한다.
 
@@ -78,13 +78,13 @@ semantic segmentation에서 높은 성늘으 내기 위해서는 convolutional n
 
 ### Spatial Pyramid Pooling
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%204.png)
+![Untitled](images/7-%204.png)
 
 Semantic segmentaion의 성능을 높이기 위한 방법 중 하나로, spatial pyramid pooling 기법이 자주 활용되고 있는 추세이다. DeepLab V2에서는 feature map으로부터 여러 개의 rate가 다른 atrous convolution을 병렬로 적용한 뒤, 이를 다시 합쳐주는 atrous spatial pyramid pooling (ASPP) 기법을 활용할 것을 제안한다.
 
 ### Encoder-Decoder
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%205.png)
+![Untitled](images/7-%205.png)
 
 **[U-Net](https://arxiv.org/abs/1505.04597)**이라 불리는 encoder-decoder 구조는 정교한 픽셀 단위의 segmentation이 요구되는 biomedical image segmentation task의 핵심 요소로 자리잡고 있다.왼쪽의 encoder 부분에서는 점진적으로 spatial dimension을 줄여가면서 고차원의 semantic 정보를 convolution filter가 추출해낼 수 있게 된다. 이후 오른쪽의 decoder 부분에서는 encoder에서 spatial dimension 축소로 인해 손실된 spatial 정보를 점진적으로 복원하여 보다 정교한 boundary segmentation을 완성하게 된다.
 
@@ -92,23 +92,23 @@ U-Net이 여타 encoder-decoder 구조와 다른 점은, 위 그림에서 가운
 
 ### Depthwise Separable Convolution
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%206.png)
+![Untitled](images/7-%206.png)
 
 Convolution 연산에서 channel 축을 filter가 한 번에 연산하는 대신에, 위 그림과 같이 입력 영상의 channel 축을 모두 분리시킨 뒤, channel 축 길이를 항상 1로 가지는 여러 개의 convolution 필터로 대체시킨 연산을 depthwise convolution이라고 합니다.
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%207.png)
+![Untitled](images/7-%207.png)
 
 이제, 위의 depthwise convolution으로 나온 결과에 대해, 1×1×*C* 크기의 convolution filter를 적용한 것을 depthwise separable convolution 이라 합니다. 이처럼 복잡한 연산을 수행하는 이유는 기존 convolution과 유사한 성능을 보이면서도 사용되는 파라미터 수와 연산량을 획기적으로 줄일 수 있기 때문입니다.
 
 ### DeepLab V3+
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%208.png)
+![Untitled](images/7-%208.png)
 
 - Encoder: ResNet with atrous convolution → [Xception](https://arxiv.org/abs/1610.02357) (Inception with separable convolution)
 - ASPP → ASSPP (Atrous Separable Spatial Pyramid Pooling)
 - Decoder: Bilinear upsampling → Simplified U-Net style decoder
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%209.png)
+![Untitled](images/7-%209.png)
 
 ```python
 # 모델 준비
@@ -154,7 +154,7 @@ plt.imshow(output)
 plt.show()
 ```
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%2010.png)
+![Untitled](images/7-%2010.png)
 
 ```python
 segvalues
@@ -235,7 +235,7 @@ plt.imshow(seg_map, cmap='gray')
 plt.show()
 ```
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%2011.png)
+![Untitled](images/7-%2011.png)
 
 ```python
 # 원본 이미지와 곂쳐보기
@@ -255,7 +255,7 @@ plt.imshow(cv2.cvtColor(img_show, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%2012.png)
+![Untitled](images/7-%2012.png)
 
 # 배경 흐리게 하기
 
@@ -269,7 +269,7 @@ plt.imshow(cv2.cvtColor(img_orig_blur, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%2013.png)
+![Untitled](images/7-%2013.png)
 
 ### 세그멘테이션 마스크를 이용해서 배경만 추출
 
@@ -281,7 +281,7 @@ plt.imshow(cv2.cvtColor(img_bg_blur, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%2014.png)
+![Untitled](images/7-%2014.png)
 
 - bitwise_not(): (배경:0, 사람:255) → (배경:255, 사람:0)
 - bitwise_and(): 오리지날 블러 이미지와 bg_mask이미지 합성
@@ -294,6 +294,6 @@ plt.imshow(cv2.cvtColor(img_concat, cv2.COLOR_BGR2RGB))
 plt.show()
 ```
 
-![Untitled](Exploration%207%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AF%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%A5%20%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A1%209061332ce1344a7987bee05891e23f6e/Untitled%2015.png)
+![Untitled](images/7-%2015.png)
 
 - 세그멘테이션 마스크가 255인 부분만 원본 이미지 값을 갖고, 아닌 영역은 블러된 이미지 값을 사용
