@@ -73,7 +73,7 @@ ax.legend()
 ax.grid()
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled.png)
+![Untitled](image/20-.png)
 
 ### 생성한 데이터에 K-means 알고리즘 적용
 
@@ -127,7 +127,7 @@ ax.legend()
 ax.grid()
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%201.png)
+![Untitled](image/20-%201.png)
 
 ### K-means 알고리즘이 잘 동작하지 않는 예시들
 
@@ -156,7 +156,7 @@ ax.legend()
 ax.grid()
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%202.png)
+![Untitled](image/20-%202.png)
 
 ```python
 # K-means algorithm이 잘 동작하지 않는 예시 (2) 달 모양 분포
@@ -183,7 +183,7 @@ ax.legend()
 ax.grid()
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%203.png)
+![Untitled](image/20-%203.png)
 
 ```python
 # K-means algorithm이 잘 동작하지 않는 예시 (3) 대각선 모양 분포
@@ -212,7 +212,7 @@ ax.legend()
 ax.grid()
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%204.png)
+![Untitled](image/20-%204.png)
 
 K-means 알고리즘의 단점
 
@@ -281,7 +281,7 @@ DBSCAN Y-hat: [0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 1 1 1 0 0 0 1 1 0 0 1 1 0 0 1 0 1 1
 '''
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%205.png)
+![Untitled](image/20-%205.png)
 
 ```python
 # 달 모양 분포 데이터 plot - 위와 같은 과정 반복
@@ -313,7 +313,7 @@ DBSCAN Y-hat: [0 0 1 1 1 1 0 1 0 0 0 0 0 0 1 1 1 1 1 0 0 0 1 0 0 1 0 0 1 1 1 0 0
 '''
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%206.png)
+![Untitled](image/20-%206.png)
 
 ```python
 # 대각선 모양 분포 데이터 plot - 위와 같은 과정 반복
@@ -347,7 +347,7 @@ DBSCAN Y-hat: [ 0  1  1  0  0  2  2  0  1  2  2  2  0  2  0  1  2  2  2  1  1  1
 '''
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%207.png)
+![Untitled](image/20-%207.png)
 
 DBSCAN Y-hat 결과가 -1인경우는 어느 군집에도  포함되지 못한 noise point이다.
 
@@ -407,7 +407,7 @@ ax.grid()
 '''
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%208.png)
+![Untitled](image/20-%208.png)
 
 데이터의 수가 적을 때는 K-meas알고리즘의 수행 시간이 DBSCAN에 비해 더 길었으나, 군집화할 데이터의 수가 많아질수록 DBSCAN의 알고리즘 수행 시간이 급격하게 늘어난다.
 
@@ -421,7 +421,7 @@ ax.grid()
 데이터 분포의 주성분을 찾아주는 방법이다. 여기서 주성분이라는 의미는 데이터의 분산이 가장 큰 방향벡터이다. PCA는 데이터들의 분산을 최대로 보존하면서 서로 직교하는 기저(basis)들을 찾아 고차원 공간을 저차원 공간으로 사영한다. 또한 PCA에서는 **기존 feature 중 중요한 것을 선택하는 방식이 아닌 기존의 feature를 선형 결합하는 방식**을 사용한다.
 > 
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%209.png)
+![Untitled](image/20-%209.png)
 
 기저(basis)
 
@@ -430,7 +430,7 @@ ax.grid()
 
 위 그림과 같이 타원형 분포로 되어있는 데이터들이 있을 때, 차원의 수는 줄이면서 데이터 분포의 분산을 최대한 유지라기 위해 가장 분산이 긴 축을 첫 기저로 잡고, 그 기저에 직교한느 축 중 가장 분산이 큰 값을 다음 기저로 잡게 된다. 이 과정을 반복하게 되면 차원의 수를 최대로 줄이면서 데이터 분포의 분산을 그대로 유지할 수 있다. 
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%2010.png)
+![Untitled](image/20-%2010.png)
 
 사영(projection)
 
@@ -546,7 +546,7 @@ print("PCA를 적용하지 않은 Test dataset accuracy: {}명/{}명 => {:.3f}".
 
 # 차원 축소 T-SNE
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%2011.png)
+![Untitled](image/20-%2011.png)
 
 PCA는 주로 선형적인 데이터의 분포를 가지고 있을 때, 정보가 가장 잘 보존된다. 하지만 위의 이미지처럼 방사형적, 비선형적 데이터에서는 많은 정보량을 담기 위한 주성분으로 잡을 선형적인 축을 찾기 어렵다.
 
@@ -635,7 +635,7 @@ for i in range(0,n_img_sample):
 plt.show()
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%2012.png)
+![Untitled](image/20-%2012.png)
 
 ### PCA를 이용한 MNIST 차원축소
 
@@ -684,7 +684,7 @@ sns.scatterplot(
 )
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%2013.png)
+![Untitled](image/20-%2013.png)
 
 - PCA로 `784차원`을 `2차원`으로 줄인 결과 벡터를 `Scatter 그래프`로 그려보았습니다
 - 같거나 모양이 비슷한 숫자 이미지가 `유사한 벡터값`을 갖는것을 색상으로 확인할 수 있습니다.
@@ -725,7 +725,7 @@ sns.scatterplot(
 )
 ```
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%2014.png)
+![Untitled](image/20-%2014.png)
 
 > **그러면 T-SNE는 PCA보다 우월한 차원축소 기법일까? 
 → 그렇지 않습니다.**
@@ -734,6 +734,6 @@ T-SNE의 두 차원은 물리적 의미를 가지지 않습니다. PCA는 정보
 
 # 정리 및 요약
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%2015.png)
+![Untitled](image/20-%2015.png)
 
-![Untitled](Fundamental%2020%20%E1%84%87%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%204ba7068b6426411f8626a0de1787ebc9/Untitled%2016.png)
+![Untitled](image/20-%2016.png)
