@@ -2,7 +2,7 @@
 
 # 텍스트 요약(Text Summarization)이란?
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled.png)
+![Untitled](images/8-.png)
 
 > **텍스트 요약(Text Summarization)이란**
 위 그림과 같이 긴 길이의 문서(Document)원문을 핵심 주제만으로 구성된 짧은 요약(Summary)문장들로 변환하는 것을 말한다.
@@ -48,7 +48,7 @@ seq2seq모델은 두 개의 RNN 아키텍처를 사용하여 입력 시퀀스로
 
 ### seq2seq 개요
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%201.png)
+![Untitled](images/8-%201.png)
 
 > **컨텍스트 벡터(context vector)란?**
 원문을 첫 번째 RNN인 인코더로 입력하면, 인코더는 이를 하나의 문맥정보를 가지고 있는 고정된 벡터로 변환하는데 이를 컨텍스트 벡터라고 한다.
@@ -59,7 +59,7 @@ seq2seq모델은 두 개의 RNN 아키텍처를 사용하여 입력 시퀀스로
 
 ### LSTM과 컨텍스트 벡터
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%202.png)
+![Untitled](images/8-%202.png)
 
 LSTM vs 바닐라 RNN
 
@@ -67,13 +67,13 @@ LSTM vs 바닐라 RNN
 
 ### 시작 토큰과 종료 토큰
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%203.png)
+![Untitled](images/8-%203.png)
 
 - 시작 토큰 SOS가 입력되면, 각 시점마다 단어를 생성하고 이 과정을 종료 토큰 EOS를 예측하는 순간까지 멈추지 않는다.
 
 ### 어텐션 메커니즘을 통한 새로운 컨텍스트 벡터 사용하기
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%204.png)
+![Untitled](images/8-%204.png)
 
 기존의 seq2seq는 인코더의 마지막 time step의 hidden state를 컨텍스트 벡터로 사용
 
@@ -352,11 +352,11 @@ plt.show()
 '''
 ```
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%205.png)
+![Untitled](images/8-%205.png)
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%206.png)
+![Untitled](images/8-%206.png)
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%207.png)
+![Untitled](images/8-%207.png)
 
 ```python
 # 최대 길이 정하기
@@ -658,7 +658,7 @@ LSTM은 dropout뿐 아니라 recurrent dropout까지 사용한다.
 dropout을 레이어가 아닌 time step마다 해주는 방식이다. 즉, time step의 입력을 랜덤으로 생략해 주는 것이다.
 > 
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%208.png)
+![Untitled](images/8-%208.png)
 
 ```python
 # 디코더 설계
@@ -795,7 +795,7 @@ plt.legend()
 plt.show()
 ```
 
-![Untitled](Exploration%208%20%E1%84%82%E1%85%B2%E1%84%89%E1%85%B3%20%E1%84%8B%E1%85%AD%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%87%E1%85%A9%E1%86%BA%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%2005b88891a5c94b03b170db2499ae74bc/Untitled%209.png)
+![Untitled](images/8-%209.png)
 
 # 인퍼런스 모델 구현하기
 
