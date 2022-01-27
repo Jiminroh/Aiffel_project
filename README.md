@@ -40,7 +40,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP5|나의 첫 번째 캐글 경진대회 무작정 따라해보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_05.md)|[link](https://jm-develope-note.tistory.com/36)|캐글 코리아와 함께하는 2nd ML 대회 - House Price Prediction|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-05%5DHouse%20Price%20Prediction.ipynb)
 |EP6|영화리뷰 텍스트 감성분석하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_06.md)|[link](https://jm-develope-note.tistory.com/38)|네이버 영화리뷰 감성분석|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-06%5D%EB%84%A4%EC%9D%B4%EB%B2%84%20%EC%98%81%ED%99%94%EB%A6%AC%EB%B7%B0%20%EA%B0%90%EC%84%B1%EB%B6%84%EC%84%9D.ipynb)
 |EP7|인물사진을 만들어 보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_07.md)|[link](https://jm-develope-note.tistory.com/category/AIFFEL/exploration)|인물사진 문제점찾기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-07%5D%EC%9D%B8%EB%AC%BC%20%EB%AA%A8%EB%93%9C%20%EB%AC%B8%EC%A0%9C%EC%A0%90%20%EC%B0%BE%EA%B8%B0.ipynb)
-|EP8|뉴스 요약봇  만들기|[link]()|[link]()|뉴스기사 요약해보기|[link]()
+|EP8|뉴스 요약봇  만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_08.md)|[link](https://jm-develope-note.tistory.com/49)|뉴스기사 요약해보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-08%5D%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD%EB%B4%87%20%EB%A7%8C%EB%93%A4%EA%B8%B0.ipynb)
 
 ----
 ## Going Deeper CV
