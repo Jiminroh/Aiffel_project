@@ -28,6 +28,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD18|딥러닝 들여다보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_18.md)|[link](https://jm-develope-note.tistory.com/39)
 |FD19|선형회귀와 로지스틱 회귀|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/fundamental_19.md)|[link](https://jm-develope-note.tistory.com/41)
 |FD20|비지도학습|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_20.md)|[link](https://jm-develope-note.tistory.com/46)
+|FD21|TF2 API|[link]()|[link]()
 
 ----
 ## Exploration
