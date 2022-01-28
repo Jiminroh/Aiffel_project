@@ -2,7 +2,6 @@
 
 # TensorFlow2 API로 모델 구성하기
 
-![Untitle](image/21-.png)
 TensorFlow2에서 딥러닝 모델을 작성하는 방법
 
 - Sequential
