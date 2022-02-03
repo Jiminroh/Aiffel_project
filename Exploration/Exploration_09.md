@@ -2,7 +2,7 @@
 
 # 의료영상에 대해
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled.png)
+![Untitled](images/9-.png)
 
 ### 의료 영상 종류
 
@@ -14,7 +14,7 @@
 
 ### 의료영상 자세 분류
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled%201.png)
+![Untitled](images/9-%201.png)
 
 - Sagittal plane : 시상면. 사람을 왼쪽과 오른쪽을 나누는 면.
 - Coronal plane : 관상면. 인체를 앞뒤로 나누는 면.
@@ -24,13 +24,13 @@
 
 - X-RAY는 전자기파가 몸을 통과한 결과흫 이미지화 시킨 것이기 때문에 흑백 명암으로 나오게 된다.
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled%202.png)
+![Untitled](images/9-%202.png)
 
 - 뼈: 하얀색
 - 근욱 및 지방: 연한 회색
 - 공기: 검은 색
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled%203.png)
+![Untitled](images/9-%203.png)
 
 - 갈비뼈: 하얀 색
 - 폐: 검은 색
@@ -38,13 +38,13 @@
 
 ### 폐렴 구별법
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled%204.png)
+![Untitled](images/9-%204.png)
 
 폐렴의 구별법은 X-RAY 사진상 다양한 양상의 음영(폐 부위에 희미한 그림자)증가를 관찰하는 것이다.
 
 하지만 실제로 영상을 보면 희미한 경우가 많이 있어 저제 실제로 폐렴으로 인한 것인지 아니면 다른 이유 때문인지 파악하기 어렵다.
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled%205.png)
+![Untitled](images/9-%205.png)
 
 - Nomal: 비정상적인 음영 영역이 없는 깨끗한 폐를 보여준다.
 - Bacterial Pneumonia(세균성 폐렴): 일반적으로 오른쪽 상부 엽에  나타나고
@@ -278,7 +278,7 @@ image_batch, label_batch = next(iter(train_ds))
 show_batch(image_batch.numpy(), label_batch.numpy())
 ```
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled%206.png)
+![Untitled](images/9-%206.png)
 
 # CNN 모델링
 
@@ -410,7 +410,7 @@ for i, met in enumerate(['precision', 'recall', 'accuracy', 'loss']):
     ax[i].legend(['train', 'val'])
 ```
 
-![Untitled](Exploaration%209%20%E1%84%91%E1%85%A6%E1%84%85%E1%85%A7%E1%86%B7%E1%84%8B%E1%85%A1%20%E1%84%80%E1%85%B5%E1%84%83%E1%85%A1%E1%84%85%E1%85%A7%E1%84%85%E1%85%A1!%209866448ff4c348d49a8273f01a549c82/Untitled%207.png)
+![Untitled](images/9-%207.png)
 
 # 모델 평가
 
