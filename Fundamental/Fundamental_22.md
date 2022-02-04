@@ -12,7 +12,7 @@ ImageNet Pretrained Model의 Accurancy
 
 # 딥네트워크의 시작
 
-![Untitled](Fundamental%2022%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3,%20%E1%84%89%E1%85%A5%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%AF%E1%84%80%E1%85%A1%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A5%E1%84%8C%E1%85%AD%200a4ebf808b064fa99895706fd33230c5/Untitled.png)
+![Untitled](image/22-.png)
 
 ### AlexNet
 
@@ -24,7 +24,7 @@ ImageNet Pretrained Model의 Accurancy
 
 # CNN을 잘쓰자
 
-![Untitled](Fundamental%2022%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3,%20%E1%84%89%E1%85%A5%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%AF%E1%84%80%E1%85%A1%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A5%E1%84%8C%E1%85%AD%200a4ebf808b064fa99895706fd33230c5/Untitled%201.png)
+![Untitled](image/22-%201.png)
 
 ### VGG
 
@@ -34,7 +34,7 @@ ImageNet Pretrained Model의 Accurancy
 
 # 멀리 있으면 잘 안들려요
 
-![Untitled](Fundamental%2022%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3,%20%E1%84%89%E1%85%A5%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%AF%E1%84%80%E1%85%A1%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A5%E1%84%8C%E1%85%AD%200a4ebf808b064fa99895706fd33230c5/Untitled%202.png)
+![Untitled](image/22-%202.png)
 
 > **기울기 소실(경사소실, Vanishing Gradient)이란?**
 네트워크를 깊게 쌓으면 모델의 학습을 위한 Gradient가 사라지는 현상이 발생한다.
@@ -46,9 +46,9 @@ ImageNet Pretrained Model의 Accurancy
 - 총 152개 이상의 레이어
 - **Skip connertion**을 활용하여  Vanishing/Exploding Gradient 문제 해결
 
-![Untitled](Fundamental%2022%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3,%20%E1%84%89%E1%85%A5%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%AF%E1%84%80%E1%85%A1%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A5%E1%84%8C%E1%85%AD%200a4ebf808b064fa99895706fd33230c5/Untitled%203.png)
+![Untitled](image/22-%203.png)
 
-![Untitled](Fundamental%2022%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3,%20%E1%84%89%E1%85%A5%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%AF%E1%84%80%E1%85%A1%20%E1%84%83%E1%85%A1%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A5%E1%84%8C%E1%85%AD%200a4ebf808b064fa99895706fd33230c5/Untitled%204.png)
+![Untitled](image/22-%204.png)
 
 Skip Connection은 위의 그림처럼 레이어의 입력을 다른 곳에 이어서 Gradient가 깊은 곳까지 이어지도록한다.
 
