@@ -30,7 +30,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD20|비지도학습|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_20.md)|[link](https://jm-develope-note.tistory.com/46)
 |FD21|TF2 API|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_21.md)|[link](https://jm-develope-note.tistory.com/51)
 |FD22|딥네워크, 서로 뭐가 다른 거죠?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_22.md)|[link](https://jm-develope-note.tistory.com/62)
-|FD23|딥러닝 레이어의 이해|[link]()|[link]()
+|FD23|딥러닝 레이어의 이해|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_23.md)|[link](https://jm-develope-note.tistory.com/65)
 
 ----
 ## Exploration
