@@ -16,7 +16,7 @@
 - Input image를 입력받으면, 내부 연산을 통해 실제 사진 같은 형상으로 변화된 Predicted Image를 출력
 - Predicted Image가 Ground Truth 이미지와 얼마나 비슷한지 평가하여 실제 같은 결과물을 만든다.
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled.png)
+![Untitled](images/10-.png)
 
 # CycleGAN
 
@@ -26,11 +26,11 @@
 - 한 방향으로의 변환만 가능한 Pix2Pix와 달리 CycleGAN은 양방향으로의 이미지 변환이 가능하다.
 - 사진의 쌍으로 데이터셋이 필요했던 Pix2Pix와 달리 CycleGAN은 쌍이 필요없다. 이는 데이터를 구하기 훨씬 쉽고, 라벨을 붙이는 주석비용이 필요 없다는 것을 뜻해 굉장히 큰 장점이다.
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%201.png)
+![Untitled](images/10-%201.png)
 
 아래와 같이 화가의 작품을 다른 화가의 작품의 화풍으로 변환하는 것도 가능하다.
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%202.png)
+![Untitled](images/10-%202.png)
 
 # Neural Style Transfer
 
@@ -39,7 +39,7 @@
 > 
 - base image와 style image 두 장을 이용한다.
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%203.png)
+![Untitled](images/10-%203.png)
 
 # Fashion MNIST
 
@@ -116,7 +116,7 @@ for i in range(10):
 plt.show()
 ```
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%204.png)
+![Untitled](images/10-%204.png)
 
 ### Mini-Batch
 
@@ -137,14 +137,14 @@ GAN(Generative Adversarial Network)
 - `생성자(Generator):` 아무 의미 없는 랜덤 노이즈로부터 신경망에서의 연산을 통해 이미지 형상의 벡터를 생성해 냅니다. 즉, 무에서 유를 창조하는 것과 같은 역할을 한다.
 - `판별자(Discriminator):` 기존에 있던 진짜 이미지와 생성자가 만들어낸 이미지를 입력받아 각 이미지가 Real 인지, Fake 인지에 대한 판단 정도를 실숫값으로 출력한다.
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%205.png)
+![Untitled](images/10-%205.png)
 
 ### DCGAN(Deep Convolution GAN)
 
 - Input : 100 random numbers drawn from a uniform distribution (called as a code, or latent variables)
 - Output : an image (in this case 64x64x3 images)
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%206.png)
+![Untitled](images/10-%206.png)
 
 # 생성자 구현하기
 
@@ -187,7 +187,7 @@ def make_generator_model():
 
 - Conv2DTranspose layer: 일반적인 Conv2D와 반대로 이미지 사이즈를 넓혀주는 층
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%207.png)
+![Untitled](images/10-%207.png)
 
 ### Generator summary
 
@@ -548,7 +548,7 @@ train(train_dataset, EPOCHS, save_every)
 # 진행 과정을 수시로 확인해 보시길 권합니다.
 ```
 
-![Untitled](Exploration%2010%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%83%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%84%85%E1%85%A9%20cda6f6bde369489cac6c6395ce6f66a7/Untitled%208.png)
+![Untitled](images/10-%208.png)
 
 ### 학습과정 시각화하기
 
