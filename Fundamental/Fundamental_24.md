@@ -24,7 +24,7 @@
 > 
 - 우리가 ‘단어를 n개 쓸거야'라고 전달만 해주면 컴퓨터는 알아서 사전을 만들고, 수많은 데이터를 거치며 각 단어의 의미(분산표현)를 차근차근 업데이트한다.
 
-![Untitled](Fundamental%2024%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A22%20Embeding,%20R%20b180c645150c4d17baab7b717bc514e0/Untitled.png)
+![Untitled](image/24-.png)
 
 - Weight: 단어의 개수, Embedding size
 - 단어를 분산 표현으로 연결해 주는 역할을 하는것이 Weight에서 특정 행을 읽어오는 것과 같아 이 레이어를 룩업 테이블(Lookup Table)이라고 부른다.
@@ -131,7 +131,7 @@ Embedding Layer의 Weight 형태: (64, 100)
 
 RNN의 입력으로 들어가는 모든 단어만큼 Weight를 만드는 게 아니다. (입력의 차원, 출력의 차원)에 해당하는 단 하나의 weight를 순차적으로 업데이트하는 것이 RNN이다. 그렇다 보니 한 문장을 읽고 처리하는 데에도 여러 번의 연산이 필요해 다른 레이어에 비해 느리다는 단점이 있다.
 
-![Untitled](Fundamental%2024%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A22%20Embeding,%20R%20b180c645150c4d17baab7b717bc514e0/Untitled%201.png)
+![Untitled](image/24-%201.png)
 
 - 입력의 앞부분이 뒤로 갈수록 옅어져 손실이 발생하는 기울기 소실(Vanishing Gradient)문제가 발생한다.
 
@@ -188,7 +188,7 @@ RNN Layer의 Weight 형태: (100, 64)
 
 이전 단어를 입력으로 받아 생성된 모든 다음 단어, 즉 모든 Step에 대한 Output
 
-![Untitled](Fundamental%2024%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A22%20Embeding,%20R%20b180c645150c4d17baab7b717bc514e0/Untitled%202.png)
+![Untitled](image/24-%202.png)
 
 ```python
 lstm_seq_layer = tf.keras.layers.LSTM(units=64, return_sequences=True, use_bias=False)
@@ -224,7 +224,7 @@ LSTM의 3개의 Gate Layer
 
 ### 양방향(Bidirectional) RNN
 
-![Untitled](Fundamental%2024%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A22%20Embeding,%20R%20b180c645150c4d17baab7b717bc514e0/Untitled%203.png)
+![Untitled](image/24-%203.png)
 
 ```python
 import tensorflow as tf
