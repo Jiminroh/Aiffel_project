@@ -47,7 +47,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP8|뉴스 요약봇  만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_08.md)|[link](https://jm-develope-note.tistory.com/49)|뉴스기사 요약해보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-08%5D%EB%89%B4%EC%8A%A4%20%EC%9A%94%EC%95%BD%EB%B4%87%20%EB%A7%8C%EB%93%A4%EA%B8%B0.ipynb)
 |EP9|폐렴아 기달려라!|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_09.md)|[link](https://jm-develope-note.tistory.com/55)|폐렴 진단기 성능개선|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-09%5D%ED%8F%90%EB%A0%B4%20%EC%A7%84%EB%8B%A8%EA%B8%B0%20%EC%84%B1%EB%8A%A5%20%EA%B0%9C%EC%84%A0.ipynb)
 |EP10|인공지능으로 세상에 없던 새로운 패션 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_10.md)|[link](https://jm-develope-note.tistory.com/67)|CIFAR-10 이미지 생성하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-10%5DCIFAR10%20%EC%83%9D%EC%84%B1%EA%B8%B0.ipynb)
-|EP11|어제 오른 내 주식, 과연 내일은?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_11.md)|[link](https://jm-develope-note.tistory.com/71)|주식 예측에 도전해 보자|[link]()
+|EP11|어제 오른 내 주식, 과연 내일은?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_11.md)|[link](https://jm-develope-note.tistory.com/71)|주식 예측에 도전해 보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-11%5D%EC%A3%BC%EC%8B%9D%20%EC%98%88%EC%B8%A1%EC%97%90%20%EB%8F%84%EC%A0%84%ED%95%B4%20%EB%B3%B4%EC%9E%90.ipynb)
 
 ----
 ## Going Deeper CV
