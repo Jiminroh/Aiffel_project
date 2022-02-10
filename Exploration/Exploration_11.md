@@ -119,7 +119,7 @@ rcParams['figure.figsize'] = 13, 6    # matlab 차트의 기본 크기를 13, 6�
 plt.plot(ts1)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled.png)
+![Untitled](images/11-.png)
 
 결측치 확인
 
@@ -165,7 +165,7 @@ def plot_rolling_statistics(timeseries, window=12):
 plot_rolling_statistics(ts1, window=12)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%201.png)
+![Untitled](images/11-%201.png)
 
 - 대채적으로 안정적인 형태
 
@@ -198,7 +198,7 @@ ts2 = df['Passengers']
 plt.plot(ts2)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%202.png)
+![Untitled](images/11-%202.png)
 
 Rolling statistics 적용
 
@@ -206,7 +206,7 @@ Rolling statistics 적용
 plot_rolling_statistics(ts2, window=12)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%203.png)
+![Untitled](images/11-%203.png)
 
 - 시간의 추이에 따라 평균과 분산이 증가하는 패턴 → 안정적이지 않다.
 
@@ -295,7 +295,7 @@ ts_log = np.log(ts2)
 plt.plot(ts_log)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%204.png)
+![Untitled](images/11-%204.png)
 
 ADF Test
 
@@ -327,7 +327,7 @@ plt.plot(ts_log)
 plt.plot(moving_avg, color='red')
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%205.png)
+![Untitled](images/11-%205.png)
 
 데이터셋에 rolling mean을 빼주기
 
@@ -389,7 +389,7 @@ Rolling statistics
 plot_rolling_statistics(ts_log_moving_avg)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%206.png)
+![Untitled](images/11-%206.png)
 
 ADF Test
 
@@ -424,7 +424,7 @@ ts_log_moving_avg_6.dropna(inplace=True)
 plot_rolling_statistics(ts_log_moving_avg_6)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%207.png)
+![Untitled](images/11-%207.png)
 
 ```python
 augmented_dickey_fuller_test(ts_log_moving_avg_6)
@@ -464,7 +464,7 @@ plt.plot(ts_log_moving_avg, color='blue')
 plt.plot(ts_log_moving_avg_shift, color='green')
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%208.png)
+![Untitled](images/11-%208.png)
 
 원본 시계열에서 시프트한 시계열 빼기
 
@@ -474,7 +474,7 @@ ts_log_moving_avg_diff.dropna(inplace=True)
 plt.plot(ts_log_moving_avg_diff)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%209.png)
+![Untitled](images/11-%209.png)
 
 Rolling statistics
 
@@ -482,7 +482,7 @@ Rolling statistics
 plot_rolling_statistics(ts_log_moving_avg_diff)
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2010.png)
+![Untitled](images/11-%2010.png)
 
 ADF Test
 
@@ -572,15 +572,15 @@ dtype: float64
 
 ### AR(자기회귀, Autoregression)
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2011.png)
+![Untitled](images/11-%2011.png)
 
 ### MA(이동평균, Moving Average)
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2012.png)
+![Untitled](images/11-%2012.png)
 
 ### I(차분누적, Integrated)
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2013.png)
+![Untitled](images/11-%2013.png)
 
 ## 2. ARIMA 모델의 모수(parameter) p, q, d
 
@@ -599,11 +599,11 @@ p, q는 일반적으로 p+q<2, p*q =0인 값을 사용한다. 이것은 p,q중 �
 
 ACF 
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2014.png)
+![Untitled](images/11-%2014.png)
 
 PACF
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2015.png)
+![Untitled](images/11-%2015.png)
 
 ### statsmodels의 ACF, PACF 플로팅 기능 사용
 
@@ -615,13 +615,13 @@ plot_pacf(ts_log)  # PACF : Partial Autocorrelation 그래프 그리기
 plt.show()
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2016.png)
+![Untitled](images/11-%2016.png)
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2017.png)
+![Untitled](images/11-%2017.png)
 
 - ACF를 통해 MA 모델의 시차 q를 결정하고, PACF를 통해 AR 모델의 시차 p를 결정할 수 있다.
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2018.png)
+![Untitled](images/11-%2018.png)
 
 그래프 분석 p,q
 
@@ -649,7 +649,7 @@ dtype: float64
 '''
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2019.png)
+![Untitled](images/11-%2019.png)
 
 ```python
 # 2차 차분 구하기
@@ -670,7 +670,7 @@ dtype: float64
 '''
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2020.png)
+![Untitled](images/11-%2020.png)
 
 ## 3. 학습 데이터 분리
 
@@ -685,7 +685,7 @@ plt.plot(test_data, c='b', label='test dataset')
 plt.legend()
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2021.png)
+![Untitled](images/11-%2021.png)
 
 ```python
 print(ts_log[:2])
@@ -763,7 +763,7 @@ plt.plot(train_data, label='train_data')
 plt.legend()
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2022.png)
+![Untitled](images/11-%2022.png)
 
 ### forecast()메소드를 이용해 예측
 
@@ -784,7 +784,7 @@ plt.legend()
 plt.show()
 ```
 
-![Untitled](Exploration%2011%20%E1%84%8B%E1%85%A5%E1%84%8C%E1%85%A6%20%E1%84%8B%E1%85%A9%E1%84%85%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A2%20%E1%84%8C%E1%85%AE%E1%84%89%E1%85%B5%E1%86%A8,%20%E1%84%80%E1%85%AA%E1%84%8B%E1%85%A7%E1%86%AB%20%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB%20719b88ec71864f8e93447a6427b0939d/Untitled%2023.png)
+![Untitled](images/11-%2023.png)
 
 ### 오차 계산
 
