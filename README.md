@@ -32,6 +32,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD22|딥네워크, 서로 뭐가 다른 거죠?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_22.md)|[link](https://jm-develope-note.tistory.com/62)
 |FD23|딥러닝 레이어의 이해|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_23.md)|[link](https://jm-develope-note.tistory.com/65)
 |FD24|딥러닝 레이어의 이해2 Embeding, Recurrent|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_24.md)|[link](https://jm-develope-note.tistory.com/69)
+|FD25|Regularization|[link]()|[link]()
 
 ----
 ## Exploration

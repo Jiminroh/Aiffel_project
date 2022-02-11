@@ -44,7 +44,7 @@ iris_df = pd.concat([iris_df, target_df], axis=1)
 iris_df.head()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled.png)
+![Untitled](image/25-.png)
 
 산점도 확인
 
@@ -68,7 +68,7 @@ plt.grid()
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%201.png)
+![Untitled](image/25-%201.png)
 
 - 아직 nomalization을 하지않아서 최대값과 최솟값의 범위로 그려진다.
 
@@ -90,7 +90,7 @@ plt.grid()
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%202.png)
+![Untitled](image/25-%202.png)
 
 - 분포의 모양은 변하지않고 x,y축의 scale만 변하였다.
 
@@ -126,7 +126,7 @@ plt.grid()
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%203.png)
+![Untitled](image/25-%203.png)
 
 L1 regularization 적용
 
@@ -153,7 +153,7 @@ plt.grid()
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%204.png)
+![Untitled](image/25-%204.png)
 
 L2 regularization 적용
 
@@ -179,19 +179,19 @@ plt.grid()
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%205.png)
+![Untitled](image/25-%205.png)
 
 # L1 Regularization
 
 ### L1 regularization (Lasso)의 정의
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%206.png)
+![Untitled](image/25-%206.png)
 
 L1은 p=1이므로 다시 정리하면 
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%207.png)
+![Untitled](image/25-%207.png)
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%208.png)
+![Untitled](image/25-%208.png)
 
 ### 컬럼 수가 많은 데이터에서의 L1 regularization 비교
 
@@ -287,11 +287,11 @@ Mean Root Squared Error: 0.3091855259513597
 
 ### L2 Regularization(Ridge)의 정의
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%209.png)
+![Untitled](image/25-%209.png)
 
 ### L1, L2 regularization의 차이점
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2010.png)
+![Untitled](image/25-%2010.png)
 
 ```python
 from sklearn.datasets import load_wine
@@ -383,7 +383,7 @@ Mean Root Squared Error: 0.3250857803841251
 
  
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2011.png)
+![Untitled](image/25-%2011.png)
 
 ```python
 x=np.array([1,10,1,1,1])
@@ -400,7 +400,7 @@ result of making norm : 10.00100
 
 ### matrix norm
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2012.png)
+![Untitled](image/25-%2012.png)
 
 ```python
 A=np.array([[1,2,3],[1,2,3],[4,6,8]])
@@ -512,7 +512,7 @@ plt.ylabel('loss')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2013.png)
+![Untitled](image/25-%2013.png)
 
 ```python
 # accuracy 값을 plot 해보겠습니다.
@@ -531,7 +531,7 @@ plt.ylabel('accuracy')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2014.png)
+![Untitled](image/25-%2014.png)
 
 Dropout추가
 
@@ -567,7 +567,7 @@ plt.ylabel('loss')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2015.png)
+![Untitled](image/25-%2015.png)
 
 ```python
 # accuracy 값을 plot 해보겠습니다. 
@@ -586,7 +586,7 @@ plt.ylabel('accuracy')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2016.png)
+![Untitled](image/25-%2016.png)
 
 # Batch Normalization
 
@@ -594,7 +594,7 @@ Batch Nomalization은 gradient vanishing, explode문제를 해결하는 방법�
 
 과정
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2017.png)
+![Untitled](image/25-%2017.png)
 
 ### 실습
 
@@ -654,7 +654,7 @@ plt.ylabel('loss')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2018.png)
+![Untitled](image/25-%2018.png)
 
 ```python
 # accuracy 값을 plot 해보겠습니다. 
@@ -673,7 +673,7 @@ plt.ylabel('accuracy')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2019.png)
+![Untitled](image/25-%2019.png)
 
 batch nomalization O
 
@@ -710,7 +710,7 @@ plt.ylabel('loss')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2020.png)
+![Untitled](image/25-%2020.png)
 
 ```python
 # accuracy 값을 plot 해보겠습니다. 
@@ -729,4 +729,4 @@ plt.ylabel('accuracy')
 plt.show()
 ```
 
-![Untitled](Fundamental%2025%20Regularization%20df3f1fe2072646359c40777ec04e0364/Untitled%2021.png)
+![Untitled](image/25-%2021.png)
