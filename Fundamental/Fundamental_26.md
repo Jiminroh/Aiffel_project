@@ -9,7 +9,7 @@ ReLU는 입력 값이 음수라면, 즉 0 미만이라는 조건을 만족한다
 
 시그모이드는 ReLU처럼 명확하고 간단하게 글로 표현하긴 힘들지만, 입려값이 -inf로 갈수록 0을 출력하고 +inf로 갈수록 1을 출력하며, 0일때는 1/2을 출력하는 함수이다. 
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled.png)
+![Untitled](image/26-.png)
 
 딥러닝에서 활서화 함수를 쓰는 결정적인 이유는 딥러닝 모델의 **표현력**을 향상시켜주기 위해서이다. 전문적인 용어로는 모델의 **representation capacity**또는 **expressicity**를 향상시킨다라고도 말한다.
 
@@ -23,9 +23,9 @@ ReLU는 입력 값이 음수라면, 즉 0 미만이라는 조건을 만족한다
 
 ### 퍼셉트론의 구조
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%201.png)
+![Untitled](image/26-%201.png)
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%202.png)
+![Untitled](image/26-%202.png)
 
 ### 활성화 함수
 
@@ -44,17 +44,17 @@ ReLU는 입력 값이 음수라면, 즉 0 미만이라는 조건을 만족한다
 선형이라는 규칙을 지키며 V공간상의 벡터를 W공간상의 벡터로 바꿔주는 역할
 > 
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%203.png)
+![Untitled](image/26-%203.png)
 
 ### 비선형(Non-linear)
 
 비선형 함수를 쓰는 이유: 딥러닝 모델의 표현력을 향상시키기위해
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%204.png)
+![Untitled](image/26-%204.png)
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%205.png)
+![Untitled](image/26-%205.png)
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%206.png)
+![Untitled](image/26-%206.png)
 
 # 비선형 함수를 쓰는 이유
 
@@ -63,11 +63,11 @@ ReLU는 입력 값이 음수라면, 즉 0 미만이라는 조건을 만족한다
 
 선형변환
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%207.png)
+![Untitled](image/26-%207.png)
 
 비선형변환
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%208.png)
+![Untitled](image/26-%208.png)
 
 # 활성화 함수의 종류
 
@@ -81,7 +81,7 @@ ReLU는 입력 값이 음수라면, 즉 0 미만이라는 조건을 만족한다
 
 - 입력이 특정 임계점을 넘으면 1를 출력하고 그렇지 않을 때는 0을 출력한다.
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%209.png)
+![Untitled](image/26-%209.png)
 
 ```python
 def binary_step(x, threshold=0): 
@@ -152,7 +152,7 @@ ax = plot_and_visulize(img_path, binary_step)
 ax.show()
 ```
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2010.png)
+![Untitled](image/26-%2010.png)
 
 퍼셉트론 
 
@@ -232,7 +232,7 @@ ax2 = scatter_plot(ax2, X, and_y)
 plt.show()
 ```
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2011.png)
+![Untitled](image/26-%2011.png)
 
 AND, OR gate
 
@@ -282,7 +282,7 @@ ax4 = scatter_plot(ax4, test_X, pred_and_y, three_d=True)
 plt.show()
 ```
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2012.png)
+![Untitled](image/26-%2012.png)
 
 이진 계단 함수의 한계
 
@@ -291,7 +291,7 @@ plt.show()
 
 ### 시그모이드
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2013.png)
+![Untitled](image/26-%2013.png)
 
 ```python
 import os
@@ -309,7 +309,7 @@ ax = plot_and_visulize(img_path, sigmoid, dev_sigmoid)
 ax.show()
 ```
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2014.png)
+![Untitled](image/26-%2014.png)
 
 시그모이드 함수의 단점 
 
@@ -318,7 +318,7 @@ ax.show()
 
 ### 하이퍼볼릭 탄젠트
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2015.png)
+![Untitled](image/26-%2015.png)
 
 ```python
 import os
@@ -336,7 +336,7 @@ ax = plot_and_visulize(img_path, tanh, dev_tanh)
 ax.show()
 ```
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2016.png)
+![Untitled](image/26-%2016.png)
 
 하이퍼볼릭 탄젠트 함수의 단점
 
@@ -344,6 +344,6 @@ ax.show()
 
 ### ReLU
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2017.png)
+![Untitled](image/26-%2017.png)
 
-![Untitled](Fundamental%2026%20%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%E1%84%8B%E1%85%B4%20%E1%84%8B%E1%85%B5%E1%84%92%E1%85%A2%20e1435b87a3124b7b810de302e57c729e/Untitled%2018.png)
+![Untitled](image/26-%2018.png)
