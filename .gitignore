@@ -30,7 +30,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
- # notebook check point
+# notebook check point
 .ipynb_checkpoints
+
+# json
+.json
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
