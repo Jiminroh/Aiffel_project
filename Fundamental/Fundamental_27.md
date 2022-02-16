@@ -4,7 +4,7 @@
 
 간단한 예시의 일차함수 모델
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled.png)
+![Untitled](image/27-.png)
 
 - 위 식에서 실수 a,b는 f라는 함수로 표현되는 모델의 형태를 결정하는 파라미터이다.
 
@@ -12,9 +12,7 @@
 (a, b)가 위치하는 R공간
 > 
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%201.png)
-
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%202.png)
+![Untitled](image/27-%202.png)
 
 - 위 그림에서 파라미터 공간에 주어진 확률 분포는 평균이 (1,0)인 정규분포이므로 y = ax + b에서 a와b의 값이 각각 1과 0에 가까울 확률, 그러니까 모델이 y = x에 가까울 확률이 크다고 보는 것이다.
 
@@ -26,13 +24,13 @@
 
 - 데이터의 집합 X가 주어졌다. 그러면 데이터가 따르는 어떤 확률 분포 p(x)도 있을 것이다. 우리의 목표는 p(x)를 가장 잘 나타낸는 일차함수 모델를 찾는 것이다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%203.png)
+![Untitled](image/27-%203.png)
 
 데이터르 관찰하기 전 파라미터 공간에 주어진 확률 분포 p(𝜽)를 **prior(prior probability, 사전 확률)**이라고 한다.
 
 만약 prior분포를 고정시킨다면, 주어진 파라미터 분포에 대해서 우리가 갖고 있는 데이터가 얼마나 ‘그럴듯한지’계산할 수 있다. 이것을 나타낸는 값이 **likelihood(가능도, 우도)이다.**
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%204.png)
+![Untitled](image/27-%204.png)
 
 즉, 파라미터의 분포 p(𝜽)가 정해졌을 때 x라는 데이터가 관찰될 확률이다.
 
@@ -50,9 +48,9 @@ Likeihood가 높다는 것은 곷 우리가 지정한 파라미터 조건에서 
 
 ### posterior와 prior, likelihood 사이의 관계
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%205.png)
+![Untitled](image/27-%205.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%206.png)
+![Untitled](image/27-%206.png)
 
 - 정확한 p(x)를 알 수 없기 때문에 posterior p(𝜽|X)의 값도 직접 구할 수 없다. 하지만 p(x)는 고정된 값이고 likehood와 prior는 계산이 가능하기 때문에 우변을 최대화하는 파라미터 값은 구할 수 있다.
 
@@ -61,11 +59,11 @@ Likeihood가 높다는 것은 곷 우리가 지정한 파라미터 조건에서 
 - 머신러닝 모델은 데이터의 실제 분포를 근사한는 역할을 하기 때문에, 데이터가 들어와도 100%의 정확도를 내는 모델을 만들기는 불가능하다.
 - 따라서 데이터로부터 예측한 prediction과 우리가 알고 있는 데이터의 label 사이에는 오차가 생기게된는데, 우리에게 관찰되는 데이터에는 이미 노이즈가 섞여있어서 이런 오차가 발생한다고 해석한다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%207.png)
+![Untitled](image/27-%207.png)
 
 지도 학습의 예시에서는, 파라미터 분포 𝜽와 입력 데이터 $x_n$이 주어졌을 때 라벨 $y_n$을 예측하는 문제가 된다. 입력 데이터의 집합을 X, 라벨들의 집합을 Y라고 할때, likelihood는 파라미너와 입력 데이터가 주어졌을 때 출력값(라벨)의 확률 분포, 즉 p(Y|𝜽, X)가 된다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%208.png)
+![Untitled](image/27-%208.png)
 
 # likelihood 감 잡기
 
@@ -85,7 +83,7 @@ plt.scatter(input_data, label)
 plt.show()
 ```
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%209.png)
+![Untitled](image/27-%209.png)
 
 ```python
 # model: y = ax + b
@@ -117,7 +115,7 @@ for i, text in enumerate(likelihood):
 plt.show()
 ```
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2010.png)
+![Untitled](image/27-%2010.png)
 
 ### likelihood가 왜 중요한가?
 
@@ -129,7 +127,7 @@ plt.show()
 
 모델 파라미터 𝜽가 주어졌을 때, 데이터 포인트$(x_n, y_n)$의 likelihood는 다음과 같다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2011.png)
+![Untitled](image/27-%2011.png)
 
 전제 데이터셋의 대하여 likelihood구하기
 
@@ -137,29 +135,29 @@ plt.show()
 - 이 조건을 줄여서 i.i.d라고 부르는 데, 머신러닝 문제에서꼭 필요한 전제조건이다.
 - 데이터 포인트들이 서로 독립이므로, 데이터셋 전체의 likelihood p(Y|𝜽, X)는 데이터 포인트 각각의 likelihood를 모두 곱한 값과 같다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2012.png)
+![Untitled](image/27-%2012.png)
 
 로그를 씌우면 곱셈 연산이 덧셈 연산으로 바뀌면서 미분 계산이 편리해 지기때문에 MLE를 실제로 적용할 때는 likelihood 대신 log likelihood를 최대화하는 파라미터를 구한다.
 
 또한 로그 함수는 단조 증가(monotonically increasing)하므로 likelihood를 최대화하는 파라미터와 log likelihood를 최대화하는 파라미터 값이 같아서 학습 결과에 영향을 주지 않는다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2013.png)
+![Untitled](image/27-%2013.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2014.png)
+![Untitled](image/27-%2014.png)
 
 또한 손실함수를 최소화하는 관저에서, log likelihood를 최대화하는 대신 negative log likelihood (-log p(Y|𝜽. X))를 최소화하는 식으로 나타내기도 한다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2015.png)
+![Untitled](image/27-%2015.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2016.png)
+![Untitled](image/27-%2016.png)
 
 유도과정
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2017.png)
+![Untitled](image/27-%2017.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2018.png)
+![Untitled](image/27-%2018.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2019.png)
+![Untitled](image/27-%2019.png)
 
 # MLE 최적해 구하기
 
@@ -184,9 +182,9 @@ plt.scatter(input_data, labels)
 plt.show()
 ```
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2020.png)
+![Untitled](image/27-%2020.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2021.png)
+![Untitled](image/27-%2021.png)
 
 ```python
 def likelihood(labels, preds):
@@ -222,7 +220,7 @@ plt.plot(model_x, model_y)
 plt.show()
 ```
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2022.png)
+![Untitled](image/27-%2022.png)
 
 # MAP: 최대 사후 확률 추정
 
@@ -234,31 +232,31 @@ MAP는 데이터가 있을 때 파라미터의 값이 무엇일 확률이 제일
 
 지도 학습의 경우 posterior는 p(𝜽|X, Y)로 나타낼 수 있는데 이 식을 prior p(𝜽)와 likelihood p(Y|𝜽, X)에 관한 식으로 변형하면 다음과 같다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2023.png)
+![Untitled](image/27-%2023.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2024.png)
+![Untitled](image/27-%2024.png)
 
 MLE에서 negative log likelihood를 최소화했던 것과 같이, MAP에서도 실제로는 posterior를 최대화하는 파라미터 대신 negative log posterior를 최소화하는 파라미터 값을 구한다. 식을 정리하면 다음과 같다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2025.png)
+![Untitled](image/27-%2025.png)
 
 또한 log p(Y|X)부분은 𝜽에 의한 식이 아니므로 제외하면 다음과 같다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2026.png)
+![Untitled](image/27-%2026.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2027.png)
+![Untitled](image/27-%2027.png)
 
 MLE에서 했던것처럼 MAP에서도 미분을 하여 최소화하는 방법을 사용한다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2028.png)
+![Untitled](image/27-%2028.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2029.png)
+![Untitled](image/27-%2029.png)
 
 따라서 MAP의 최적 파라미터 𝜽는 다음과 같다.
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2030.png)
+![Untitled](image/27-%2030.png)
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2031.png)
+![Untitled](image/27-%2031.png)
 
 # MLE와 MAP의 비교
 
@@ -282,7 +280,7 @@ plt.scatter(input_data, labels)
 plt.show()
 ```
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2032.png)
+![Untitled](image/27-%2032.png)
 
 ### 파라미터 계산
 
@@ -344,4 +342,4 @@ negative log likelihood: 4.6645e+03
 '''
 ```
 
-![Untitled](Fundamental%2027%20Likelihood(MLE%E1%84%8B%E1%85%AA%20MAP)%20052995a16b6045dda6236cd15c70e060/Untitled%2033.png)
+![Untitled](image/27-%2033.png)
