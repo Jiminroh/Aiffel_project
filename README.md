@@ -52,7 +52,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP10|인공지능으로 세상에 없던 새로운 패션 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_10.md)|[link](https://jm-develope-note.tistory.com/67)|CIFAR-10 이미지 생성하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-10%5DCIFAR10%20%EC%83%9D%EC%84%B1%EA%B8%B0.ipynb)
 |EP11|어제 오른 내 주식, 과연 내일은?|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_11.md)|[link](https://jm-develope-note.tistory.com/71)|주식 예측에 도전해 보자|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-11%5D%EC%A3%BC%EC%8B%9D%20%EC%98%88%EC%B8%A1%EC%97%90%20%EB%8F%84%EC%A0%84%ED%95%B4%20%EB%B3%B4%EC%9E%90.ipynb)
 |EP12|트랜스포머로 만드는 대화형 챗봇|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_12.md)|[link](https://jm-develope-note.tistory.com/78)|한국어 데이터로 챗봇 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-12%5D%ED%95%9C%EA%B5%AD%EC%96%B4%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20%EC%B1%97%EB%B4%87%EB%A7%8C%EB%93%A4%EA%B8%B0.ipynb)
-
+|EP13|인간보다 퀴즈를 잘푸는 인공지능|[link]()|[link]()|Pretrained model의 활용|[link]()
 
 ----
 ## Going Deeper CV

@@ -565,7 +565,7 @@ plt.ylabel('Count of question')
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled.png)
+![Untitled](images/13-.png)
 
 ```python
 # 데이터 길이
@@ -611,7 +611,7 @@ plt.boxplot(train_question_counts, labels=['token counts'], showmeans=True)
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%201.png)
+![Untitled](images/13-%201.png)
 
 ### KorQuAD 데이터셋 전처리 (데이터 분석: Context)
 
@@ -643,7 +643,7 @@ plt.ylabel('Count of context')
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%202.png)
+![Untitled](images/13-%202.png)
 
 ```python
 # 데이터 길이
@@ -689,7 +689,7 @@ plt.boxplot(train_context_counts, labels=['token counts'], showmeans=True)
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%203.png)
+![Untitled](images/13-%203.png)
 
 ### KorQuAD 데이터셋 전처리 (데이터 분석: Answer)
 
@@ -721,7 +721,7 @@ plt.ylabel('Count of answer')
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%204.png)
+![Untitled](images/13-%204.png)
 
 ```python
 # 데이터 길이
@@ -767,7 +767,7 @@ plt.boxplot(train_answer_starts, labels=['token counts'], showmeans=True)
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%205.png)
+![Untitled](images/13-%205.png)
 
 ### KorQuAD 데이터셋 전처리 (데이터 분석: Word Cloud)
 
@@ -832,7 +832,7 @@ plt.axis('off')
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%206.png)
+![Untitled](images/13-%206.png)
 
 ### KorQuAD 데이터셋 전처리 (데이터 로드)
 
@@ -982,7 +982,7 @@ model = build_model_lstm(n_vocab=len(vocab), n_seq=512, d_model=512)
 tf.keras.utils.plot_model(model, 'model.png', show_shapes=True)
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%207.png)
+![Untitled](images/13-%207.png)
 
 ### Compile
 
@@ -1030,11 +1030,11 @@ plt.legend()
 plt.show()
 ```
 
-![Untitled](Exploratio%206e7ef/Untitled%208.png)
+![Untitled](images/13-%208.png)
 
 # Bert의 모델 구조
 
-![Untitled](Exploratio%206e7ef/Untitled%209.png)
+![Untitled](images/13-%209.png)
 
 - Transformer모델은 Self-Attention으로 이루어진 Encoder-Decoder구조를 가지고 있어 번역기 모델 형태를 구현하는데 적당하다.
 
@@ -1050,7 +1050,7 @@ Decoder가 없다면 이모델은 어떻게 학습시킬까? 위그림의 왼쪽
 
 - 입력 데이터가 `나는 밥을 먹었다. <SEP> 그래서 지금 배가 부르다.`가 주어졌을 때 `<SEP>`를 경계로 좌우 두 문장이 순서대로 이어지는 문장이 맞는지를 맞추는 문제이다. BERT 모델은 이 두 문장을 입력으로 받았을 때 첫 번째 바이트에 NSP 결과값을 리턴하게 된다.
 
-![Untitled](Exploratio%206e7ef/Untitled%2010.png)
+![Untitled](images/13-%2010.png)
 
 텍스트 입력이 위 그림의 [Input]처럼 주어졌을 때, 실제로 모델에 입력되는 것은 Token, Segment, Position Embedding의 3가지가 더해진 형태이다. 실제로는 그 이후 layer normalization과 dropout이 추가로 적용된다.
 
