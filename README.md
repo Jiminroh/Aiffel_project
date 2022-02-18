@@ -35,6 +35,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD25|Regularization|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_25.md)|[link](https://jm-develope-note.tistory.com/73)
 |FD26|활성화 함수의 이해|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_26.md)|[link](https://jm-develope-note.tistory.com/76)
 |FD27|Likelihood(MLE와 MAP)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_27.md)|[link](https://jm-develope-note.tistory.com/81)
+|FD28|정보이론 톺아보기|[link]()|[link]()
 
 ----
 ## Exploration
