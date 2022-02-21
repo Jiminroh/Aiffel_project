@@ -36,6 +36,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD26|활성화 함수의 이해|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_26.md)|[link](https://jm-develope-note.tistory.com/76)
 |FD27|Likelihood(MLE와 MAP)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_27.md)|[link](https://jm-develope-note.tistory.com/81)
 |FD28|정보이론 톺아보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_28.md)|[link](https://jm-develope-note.tistory.com/85)
+|FD29|사이킷런을 활용한 추천 시스템 입문|[link]()|[link]()
 
 ----
 ## Exploration
