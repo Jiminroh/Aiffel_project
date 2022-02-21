@@ -15,7 +15,7 @@ ex. 영화 추천
 
 A에게는 부부의 세계, B에게는 스파이더맨 파 프롬 홈
 
-![Untitled](Fundamenta%203f4b2/Untitled.png)
+![Untitled](image/29-.png)
 
 이렇게 영화들을 좌표평면에 놓았을 때, 거리가 좁으면 유사도가 높다고 생각할 수 있다.
 
@@ -37,7 +37,7 @@ A에게는 부부의 세계, B에게는 스파이더맨 파 프롬 홈
 두 벡터 간의 코사인 값을 이용해 두 벡터의 유사도를 계산하는 방법이다.
 > 
 
-![Untitled](Fundamenta%203f4b2/Untitled%201.png)
+![Untitled](image/29-%201.png)
 
 - 두 벡터의 방향이 완전히 동일한 경우 1
 - 90의 각을 이루면 0
@@ -47,7 +47,7 @@ A에게는 부부의 세계, B에게는 스파이더맨 파 프롬 홈
 
 ### 코사인 유사도 수식
 
-![Untitled](Fundamenta%203f4b2/Untitled%202.png)
+![Untitled](image/29-%202.png)
 
 ### Numpy 활용 코드
 
@@ -91,7 +91,7 @@ array([[0.77459667]])
 
 # 추천시스템의 종류
 
-![Untitled](Fundamenta%203f4b2/Untitled%203.png)
+![Untitled](image/29-%203.png)
 
 - 콘텐츠 기반 필터링(Content Based Filtering)
 - 협업 필터링(Collaborative Filtering)
@@ -250,11 +250,11 @@ Star Wars: Clone Wars: Volume 1
 - rating: 평점
 - timestamp: 평점을 매긴 시간
 
-![Untitled](Fundamenta%203f4b2/Untitled%204.png)
+![Untitled](image/29-%204.png)
 
 위 데이터를 사용자와 아이템 간 interaction matrix로 변환한다. 이를 평점행렬이라고 부르기도 한다.
 
-![Untitled](Fundamenta%203f4b2/Untitled%205.png)
+![Untitled](image/29-%205.png)
 
 ### 협업 필터링의 종류
 
@@ -268,7 +268,7 @@ Star Wars: Clone Wars: Volume 1
 
 만약 아래와 같은 평점행렬이 있을 대 User4가 item1을 구매하였다. 그리고 User4와 가장 유사한 User2는item1 ~ 4까지 다음과 같은 평점을 매겼다.
 
-![Untitled](Fundamenta%203f4b2/Untitled%206.png)
+![Untitled](image/29-%206.png)
 
 이때 User2가 선호한 제품인 item3을 User4에세 추천해 주는 방식이다.
 
@@ -280,15 +280,15 @@ Star Wars: Clone Wars: Volume 1
 
 User2는 item1을 선호한다.
 
-![Untitled](Fundamenta%203f4b2/Untitled%207.png)
+![Untitled](image/29-%207.png)
 
 그 item에 대해 다은 User들의 선호도를 조사한다.
 
-![Untitled](Fundamenta%203f4b2/Untitled%208.png)
+![Untitled](image/29-%208.png)
 
 item1을 좋아한 사람은 user4다. 그 user4에게 user2가 좋아한 상품인 item3을 추천해 준다.
 
-![Untitled](Fundamenta%203f4b2/Untitled%209.png)
+![Untitled](image/29-%209.png)
 
 정리 
 
@@ -311,9 +311,9 @@ SVD
 
 우리말로 변환하면 특잇갑 분해이다.
 
-![Untitled](Fundamenta%203f4b2/Untitled%2010.png)
+![Untitled](image/29-%2010.png)
 
-![Untitled](Fundamenta%203f4b2/Untitled%2011.png)
+![Untitled](image/29-%2011.png)
 
 ```python
 import numpy as np
@@ -386,7 +386,7 @@ Truncated SVD는 LSA(Latent semactic analysis), 잠재 의미 분석이라고 �
 
 SVD(특이값 분해) 도식화
 
-![Untitled](Fundamenta%203f4b2/Untitled%2012.png)
+![Untitled](image/29-%2012.png)
 
 표기법
 
@@ -394,7 +394,7 @@ SVD(특이값 분해) 도식화
 - P: 사용자와 잠재요인 사이의 행렬
 - Q: 아이템과 잠재요인 사이의 행렬 —> 전치 행렬 형태로 나타냄
 
-![Untitled](Fundamenta%203f4b2/Untitled%2013.png)
+![Untitled](image/29-%2013.png)
 
 # 실제 추천 시스템
 
