@@ -237,13 +237,13 @@ Ratio of only_one over all data is 0.84%
 
 # Matrix Factorization(MF)
 
-![Untitled](Exploratio%20499cc/Untitled.png)
+![Untitled](images/14-.png)
 
 - m명의 사용자들이 n명의 아티스트에 대해 평가한 데이터
 - MF모델은 큰 평가 행렬 R을 두 개의 Feature Matrix P와 Q로 분해한다.
 - (m, k)사이즈의 Feature Matrix P는 k차원의 벡터를 사용자 수만큼 모아놓은 행렬이다.
 
-![Untitled](Exploratio%20499cc/Untitled%201.png)
+![Untitled](images/14-%201.png)
 
 - 첫 번째 벡터 $P_0$=(1, 0.1)은 빨간 모자를 쓴 첫 번째 사용자의 특성(Feature)벡터이다.
 - 같은 방식으로 Q 행렬의 첫 번째 벡터 $Q_0$=(0.9, -0.2)는 해리포터 영화의 특성 벡터가 된다.
@@ -258,7 +258,7 @@ CSR Matrix는 Spars한 matrix에서 0이 아닌 유효한 데이터로 채워지
 
 CSR Matrix는 data, indices, indptr로 행렬을 압축하여 표현한다.
 
-![Untitled](Exploratio%20499cc/Untitled%202.png)
+![Untitled](images/14-%202.png)
 
 - data = [1,2,3,4,5,6]
 - indices = [0, 4, 1, 3, 0, 3], data의 각 요소가 어느 열(column)에 있는지을 표현
