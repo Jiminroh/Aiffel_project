@@ -37,7 +37,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |FD27|Likelihood(MLE와 MAP)|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_27.md)|[link](https://jm-develope-note.tistory.com/81)
 |FD28|정보이론 톺아보기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_28.md)|[link](https://jm-develope-note.tistory.com/85)
 |FD29|사이킷런을 활용한 추천 시스템 입문|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_29.md)|[link](https://jm-develope-note.tistory.com/87)
-|FD30|컴퓨터 파워 UP|[link]()|[link]()
+|FD30|컴퓨터 파워 UP|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Fundamental/Fundamental_30.md)|[link](https://jm-develope-note.tistory.com/91)
 
 ----
 ## Exploration
