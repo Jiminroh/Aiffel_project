@@ -6,7 +6,7 @@
 
 예를들어 주방장 1명이 라면 1개를 끓여 고객에게 서빙하는데 걸리는 시간은 아래와 같이 총 10분이 걸린다.
 
-![Untitled](Fundamenta%20b7f5e/Untitled.png)
+![Untitled](image/30-.png)
 
 - 이렇게 하면 주방장은 1시간에 라면을 6개밖에 끓이지 못한다.
 - 따라서 **동시성과 병렬성**의 아이디어를 사용하면 이 문제를 해결해 준다.
@@ -19,7 +19,7 @@
 
 실제로는 processor는 특정 순간에는 1가지 task만을 수행하겠지만, 물을 끓이는 것처럼 다른 task를 수행할 수 있는 시간에는 task를 전환해서 효율적으로 여러 개의 task를 동시에 수행하는 것처럼 보인다.
 
-![Untitled](Fundamenta%20b7f5e/Untitled%201.png)
+![Untitled](image/30-%201.png)
 
 ### 병렬성 (parallelism)
 
@@ -27,11 +27,11 @@
 유사한 task를 여러 processor가 동시에 수행하는 개념
 > 
 
-![Untitled](Fundamenta%20b7f5e/Untitled%202.png)
+![Untitled](image/30-%202.png)
 
 동시성과 병렬성을 한 번에 적용
 
-![Untitled](Fundamenta%20b7f5e/Untitled%203.png)
+![Untitled](image/30-%203.png)
 
 - 병렬성의 효율을 극대화하는 것은 동시성이 요구될 때이다. 이때 여러 개의 프로세스가 1개의 task를 여러 개의 subtask로 쪼개어 동시에 병렬적으로 수행할 수 있기 때문이다.
 
@@ -40,7 +40,7 @@
 - 동기: 앞 작업이 종료되기를 무조건 기다렸다가 다음 작업을 수행하는 것
 - 비동기: 바운드되고 있는 작업을 기다리는 동안 다른 일을 처리한느 것
 
-![Untitled](Fundamenta%20b7f5e/Untitled%204.png)
+![Untitled](image/30-%204.png)
 
 특징 
 
@@ -90,11 +90,11 @@ current Directory: /aiffel
 
 아래 그림을 예로 들면, 프로세스는 김밥, 떢볶이를 만드는 각각의 요리사와 같다. 이들은 각자의 전용 주방 공간에서 밥 짓기, 재료 볶기, 끓이기 등등의 작업, 즉 스레드를 병렬적으로 수행한다.
 
-![Untitled](Fundamenta%20b7f5e/Untitled%205.png)
+![Untitled](image/30-%205.png)
 
 프로세스는 자신만의 전용 메모리 공간(Heap)을 가진다. 이때 해당 프로세스 내의 스레드들은 이 메모리 공간을 공유하지만 다른 프로세스와 공유하지 않는다.
 
-![Untitled](Fundamenta%20b7f5e/Untitled%206.png)
+![Untitled](image/30-%206.png)
 
 ### 프로파일링(profiling)
 
@@ -173,7 +173,7 @@ list_comprehension: 5.160736463999456 [ms]
 
 우리는 컴퓨터 자원을 활용하기 위해 자원을 Up(업그레이드, 최적화)시킬 수도 있고 자원을 Out(확장)시킬 수도 있다. Scale-Up은 한 대의 컴퓨터의 성능을 최적화시키는 방법이고 Scale-Out은 여러 대의 컴퓨터를 한 대처럼 사용하는 것이다.
 
-![Untitled](Fundamenta%20b7f5e/Untitled%207.png)
+![Untitled](image/30-%207.png)
 
 # 스레드 생성
 
