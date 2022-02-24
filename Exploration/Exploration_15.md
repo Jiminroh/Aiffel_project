@@ -2,7 +2,7 @@
 
 # 기계가 읽을 수 있나요?
 
-![Untitled](Exploratio%20fbc5f/Untitled.png)
+![Untitled](images/15-.png)
 
 사람이 문자를 읽는 방법
 
@@ -16,7 +16,7 @@
 
 ### 구글 OCR API
 
-![Untitled](Exploratio%20fbc5f/Untitled%201.png)
+![Untitled](images/15-%201.png)
 
 ```python
 def detect_text(path):
@@ -51,7 +51,7 @@ def detect_text(path):
 
 사용한 이미지
 
-![test.png](Exploratio%20fbc5f/test.png)
+![test.png](images/test.png)
 
 ```python
 # 로컬 환경에서는 다운받은 인증키 경로가 정확하게 지정되어 있어야 합니다. 
@@ -207,11 +207,11 @@ bounds: (511,330),(560,330),(560,353),(511,353)
 
 # 어떤 과정으로 읽을까요?
 
-![Untitled](Exploratio%20fbc5f/Untitled%202.png)
+![Untitled](images/15-%202.png)
 
 구글 API에서는 문자의 영역을 사각형으로 표현하고 우측에 Block과 paragrapg로 구분해서 인식 결과를 나타내고 있다. 구글 API가 이미지에 박스를 친다음 박스별 텍스트의 내용을 알려준 것처럼 문자 모델은 보통 두 단계로 이뤄진다.
 
-![Untitled](Exploratio%20fbc5f/Untitled%203.png)
+![Untitled](images/15-%203.png)
 
 먼저 입력받은 사진 속에서 문자의 위치를 찾아낸다. 이 과정을 Text Detection(문자검출)이라고 한다. 찾은 문자 영역으로 부터 문자를 읽어내는 것은 Text Recognition(문자인식)이라고 한다. 
 
@@ -223,7 +223,7 @@ bounds: (511,330),(560,330),(560,353),(511,353)
 
 # 딥러닝 문자인식의 시작
 
-![Untitled](Exploratio%20fbc5f/Untitled%204.png)
+![Untitled](images/15-%204.png)
 
 - LeNet은 우편번호나 손글씨를 읽기 위해서 만들어졌다.
 
@@ -235,7 +235,7 @@ bounds: (511,330),(560,330),(560,353),(511,353)
 
 # 사진 속 문자 찾아내기 - detection
 
-![Untitled](Exploratio%20fbc5f/Untitled%205.png)
+![Untitled](images/15-%205.png)
 
 사진 속 문자를 찾아낸는 최근의 딥러닝 모델은 일반적인 Object Detection(객체 인식)방법으로 접근한다. 단지 이미지 속에서 물체를 찾아내는 딥러닝 모델에게 문자를 찾도록 학습을 시킨 것이다.
 
@@ -246,13 +246,13 @@ bounds: (511,330),(560,330),(560,353),(511,353)
 
 # 사진 속 문자 읽어내기 - recognition
 
-![Untitled](Exploratio%20fbc5f/Untitled%206.png)
+![Untitled](images/15-%206.png)
 
 문자 인식은 사진 속에서 문자를 검출해 내는 검출 모델이 영역을 잘라서 주면 그 영역에 어떤 글자가 포함되어 있는지 읽어내는 과정이다.
 
 이 과정은 이미지 문제보다는 자연어 처리에서 많은 영감을 받았다. 이미지 내의 텍스트와 연관된 특징을 CNN을 통해 추출한 후에 스텝 단위의 문자 정보를 RNN으로 인식하는 것이다.
 
-![Untitled](Exploratio%20fbc5f/Untitled%207.png)
+![Untitled](images/15-%207.png)
 
 > **Q6. Detection, Recognition 모델만으로는 단어별 문자를 인식할 수는 있어도 사람이 의미를 가지고 읽어내는 문단("Paragraph") 또는 블록("Block") 정보를 알 수 없을 것 같은데 구글은 이를 어떻게 풀고 있을까요? 자신만의 방법을 상상해 봅시다. 딥러닝을 적용해도 되고 간단한 Rule을 적용한 로직이어도 됩니다.**
 > 
@@ -303,11 +303,11 @@ for idx, ax in enumerate(axs):
                                     predictions=prediction_groups[idx][0], ax=ax)
 ```
 
-![Untitled](Exploratio%20fbc5f/Untitled%208.png)
+![Untitled](images/15-%208.png)
 
 # 테서랙트 써보기
 
-![Untitled](Exploratio%20fbc5f/Untitled%209.png)
+![Untitled](images/15-%209.png)
 
 태서랙트는 구긍에서 후원하는 OCR 오픈소스 라이브러리로 현재는 버전 4와 Tesseract.js등으로 확장되는 등 많은 곳에서 사용되고 있다.
 
