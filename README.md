@@ -57,7 +57,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP12|트랜스포머로 만드는 대화형 챗봇|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_12.md)|[link](https://jm-develope-note.tistory.com/78)|한국어 데이터로 챗봇 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-12%5D%ED%95%9C%EA%B5%AD%EC%96%B4%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C%20%EC%B1%97%EB%B4%87%EB%A7%8C%EB%93%A4%EA%B8%B0.ipynb)
 |EP13|인간보다 퀴즈를 잘푸는 인공지능|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_13.md)|[link](https://jm-develope-note.tistory.com/83)|Pretrained model의 활용|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-13%5DPretrained%20model%EC%9D%98%20%ED%99%9C%EC%9A%A9.ipynb)
 |EP14|아이유팬이 좋아할 만한 다른 아티스트 찾기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_14.md)|[link](https://jm-develope-note.tistory.com/89)|Movielens 영화 추천 실습|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-14%5DMovielens%20%EC%98%81%ED%99%94%20%EC%B6%94%EC%B2%9C%20%EC%8B%A4%EC%8A%B5.ipynb)
-|EP15|문자를 읽을 수 있는 딥러닝|[link]()|[link]()|다양한 OCR모델 비교하기|[link]()
+|EP15|문자를 읽을 수 있는 딥러닝|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_15.md)|[link](https://jm-develope-note.tistory.com/94)|다양한 OCR모델 비교하기|[link]()
 
 ----
 ## Going Deeper CV
