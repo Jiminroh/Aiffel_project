@@ -6,7 +6,7 @@
 웹 페이지로부터 데이터를 추출하는 행위를 말한다. 크롤링하는 소프트웨어는 크롤러(crawler)라고 부른다.
 > 
 
-![Untitled](Fundamenta%2098bfe/Untitled.png)
+![Untitled](image/31-.png)
 
 우리는 인터넷 익스플로러, 크롬등과 같은 인터넷 브라우저를 사용하여 인터넷 세상으 돌아다닌다. 이 웝 사이트들은 실은 HTML(HyperText Markup Language)이라는 마크업 언어롤 작성된 문서로 구성되어 있다.
 
@@ -231,9 +231,9 @@ print(article.text)
 
 ### 네이버 뉴스 URL 구조 이해하기
 
-![Untitled](Fundamenta%2098bfe/Untitled%201.png)
+![Untitled](image/31-%201.png)
 
-![Untitled](Fundamenta%2098bfe/Untitled%202.png)
+![Untitled](image/31-%202.png)
 
 URL 분석
 
@@ -253,7 +253,7 @@ URL 분석
 
 ### 네이버 뉴스 HTML 문서 구조 이해하기
 
-![Untitled](Fundamenta%2098bfe/Untitled%203.png)
+![Untitled](image/31-%203.png)
 
 # BeautifulSoup와 newspaper3k를 통해 크롤러 만들기
 
@@ -340,7 +340,7 @@ data = make_data(url_list, 101)
 data[:10]
 ```
 
-![Untitled](Fundamenta%2098bfe/Untitled%204.png)
+![Untitled](image/31-%204.png)
 
 # 데이터 수집 및 전처리
 
@@ -408,7 +408,7 @@ sample 추출
 df.sample(10)
 ```
 
-![Untitled](Fundamenta%2098bfe/Untitled%205.png)
+![Untitled](image/31-%205.png)
 
 ### 크롤링
 
@@ -449,7 +449,7 @@ df = pd.read_table(csv_path, sep=',')
 df.head()
 ```
 
-![Untitled](Fundamenta%2098bfe/Untitled%206.png)
+![Untitled](image/31-%206.png)
 
 각종 숫자, 영어, \n등 정규표현식을 이용하여 전처리 수행
 
@@ -509,7 +509,7 @@ plt.rcParams["font.family"] = "NanumGothic"
 df['code'].value_counts().plot(kind = 'bar')
 ```
 
-![Untitled](Fundamenta%2098bfe/Untitled%207.png)
+![Untitled](image/31-%207.png)
 
 카테고리별 실제 개수
 
