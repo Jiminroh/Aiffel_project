@@ -55,7 +55,7 @@ data.sort_values(['SessionId', 'Time'], inplace=True)  # data를 id와 시간 �
 data
 ```
 
-![Untitled](Exploratio%20da0a4/Untitled.png)
+![Untitled](images/16-.png)
 
 ```python
 data['SessionId'].nunique(), data['ItemId'].nunique()
@@ -117,7 +117,7 @@ long_session = session_length[session_length==200].index[0]
 data[data['SessionId']==long_session]
 ```
 
-![Untitled](Exploratio%20da0a4/Untitled%201.png)
+![Untitled](images/16-%201.png)
 
 세션 길이 기준 하위 99.9%까지의 분포 누적합
 
@@ -141,7 +141,7 @@ plt.title('Cumsum Percentage Until 0.999', size=20)
 plt.show()
 ```
 
-![Untitled](Exploratio%20da0a4/Untitled%202.png)
+![Untitled](images/16-%202.png)
 
 ### Session Time
 
@@ -169,7 +169,7 @@ data = data[data['Time'] > month_ago]   # 방금 구한 날짜 이후의 데이�
 data
 ```
 
-![Untitled](Exploratio%20da0a4/Untitled%203.png)
+![Untitled](images/16-%203.png)
 
 ### Data Cleaning
 
@@ -201,7 +201,7 @@ def cleanse_unpopular_item(data: pd.DataFrame, least_click):
     return data
 ```
 
-![Untitled](Exploratio%20da0a4/Untitled%204.png)
+![Untitled](images/16-%204.png)
 
 ### Train / Vaild / Test split
 
@@ -219,7 +219,7 @@ test['Time'].min(), test['Time'].max()
 
 데이터 분리
 
-![Untitled](Exploratio%20da0a4/Untitled%205.png)
+![Untitled](images/16-%205.png)
 
 ```python
 def split_by_date(data: pd.DataFrame, n_days: int):
@@ -309,18 +309,18 @@ test.to_pickle(save_path / 'test.pkl')
 - 사용할 모델:2016년 ICLR에 공개된 **[SESSION-BASED RECOMMENDATIONS WITH RECURRENT NEURAL NETWORKS](https://arxiv.org/pdf/1511.06939v4.pdf)**
 - Session Data에서 처음으로 RNN계열 모델을 적용
 
-![Untitled](Exploratio%20da0a4/Untitled%206.png)
+![Untitled](images/16-%206.png)
 
 ### Session-Parallel Mini-Batches:
 
-![Untitled](Exploratio%20da0a4/Untitled%207.png)
+![Untitled](images/16-%207.png)
 
 - Session의 길이는 매우 짧은 것들이 대부분이다. 따라서 session하나로 mini-batch를 구성하여 input으로 넣는다면 길이가 제일 긴 session의 연산이 끝날 때까지 짧은 session들이 기다려야 한다.
 - 위에 방식은 session 1,2,3을 하나의 mini-batch로 만든다면, session 3이 끝나야 4가 시작된다.
 - 하지만 Session-Parallel Mini-Batches는 기다리지않고 병렬적으로 수행해 session 2가 끝나면 session 4가 시작하는 방식이다.
 - 이렇게 구성을 하게 되면 Mini-Batch의 shape은 (3, 1, 1)이 되고 RNN cell의 state가 1개로만 이루어진다.
 
-![Untitled](Exploratio%20da0a4/Untitled%208.png)
+![Untitled](images/16-%208.png)
 
 - SAMPLING ON THE OUTPUT: Negative Sampling과 같은 개념이다. item의 수가 많기 때문에 Loss를 계산할 때 모든 이이템을 비교하지 않고 인기도를 고려하여 Sampling한다.
 - Ranking Loss: Session-Based Recommendation Task를 어려 아이템 중 다음 아이템이 무엇인지 classification하는 task로 생각할 수 있지만 여러 아이템을 관련도 순으로 랭킹을 매겨서 높은 랭킹의 아이템을 추천하는 Task로도 생각할 수 있다.
@@ -356,7 +356,7 @@ tr_dataset = SessionDataset(tr)
 tr_dataset.df.head(10)
 ```
 
-![Untitled](Exploratio%20da0a4/Untitled%209.png)
+![Untitled](images/16-%209.png)
 
 ```python
 tr_dataset.click_offsets
@@ -440,7 +440,7 @@ tr_data_loader = SessionDataLoader(tr_dataset, batch_size=4)
 tr_dataset.df.head(15)
 ```
 
-![Untitled](Exploratio%20da0a4/Untitled%2010.png)
+![Untitled](images/16-%2010.png)
 
 ```python
 iter_ex = iter(tr_data_loader)
