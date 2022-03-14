@@ -60,7 +60,7 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP14|아이유팬이 좋아할 만한 다른 아티스트 찾기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_14.md)|[link](https://jm-develope-note.tistory.com/89)|Movielens 영화 추천 실습|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-14%5DMovielens%20%EC%98%81%ED%99%94%20%EC%B6%94%EC%B2%9C%20%EC%8B%A4%EC%8A%B5.ipynb)
 |EP15|문자를 읽을 수 있는 딥러닝|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_15.md)|[link](https://jm-develope-note.tistory.com/94)|다양한 OCR모델 비교하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-15%5D%EB%8B%A4%EC%96%91%ED%95%9C%20OCR%EB%AA%A8%EB%8D%B8%20%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0.ipynb)
 |EP16|다음에 볼 영화 예측하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_16.md)|[link](https://jm-develope-note.tistory.com/98)|Movielens 영화 SBR|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-16%5DMovielens%20%EC%98%81%ED%99%94%20SBR.ipynb)
-|EP17|난 스케치를 할 테니 너는 채색을 하거라|[link]()|[link]()|Segmentation map으로 도로 이미지 만들기|[link]()
+|EP17|난 스케치를 할 테니 너는 채색을 하거라|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_17.md)|[link](https://jm-develope-note.tistory.com/101)|Segmentation map으로 도로 이미지 만들기|[link]()
 
 ----
 ## Going Deeper SOCAR
