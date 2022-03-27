@@ -62,11 +62,6 @@ ABOUT AIFFEL : [:school: AIFFEL](https://aiffel.io/)
 |EP16|다음에 볼 영화 예측하기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_16.md)|[link](https://jm-develope-note.tistory.com/98)|Movielens 영화 SBR|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-16%5DMovielens%20%EC%98%81%ED%99%94%20SBR.ipynb)
 |EP17|난 스케치를 할 테니 너는 채색을 하거라|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/Exploration_17.md)|[link](https://jm-develope-note.tistory.com/101)|Segmentation map으로 도로 이미지 만들기|[link](https://github.com/Rogan-J/Aiffel_project/blob/main/Exploration/project/%5BE-17%5DSegmentation%20map%EC%9C%BC%EB%A1%9C%20%EB%8F%84%EB%A1%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0.ipynb)
 
-----
-## Going Deeper SOCAR
-||Contents|GitHub Link|
-|:----:|----|:----:|
-
 
 
 
